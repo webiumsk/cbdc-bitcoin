@@ -218,7 +218,7 @@ We're fighting against centralized control, so this project must be:
 - **Website**: [cbdc.icu](https://cbdc.icu)
 - **Issues**: [GitHub Issues](https://github.com/webiumsk/cbdc-bitcoin/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/webiumsk/cbdc-bitcoin/discussions)
-- **Twitter/X**: [@yourhandle](https://twitter.com/webiumsk)
+- **Twitter/X**: [@webiumsk](https://twitter.com/webiumsk)
 - **Nostr**: `npub1sdfk8sxrk53lxqhkl3u6dv6fkjsgxzwg964f96sf3ap4xytdjzdqs3s9x9`
 
 ---
@@ -263,7 +263,7 @@ The clock is ticking. ⏰
 
 <div align="center">
 
-**Made with 🧡 and ₿**
+**Made with 🧡 for ₿**
 
 **Freedom isn't free. Fight for it.**
 
