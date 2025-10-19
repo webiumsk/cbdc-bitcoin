@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "CBDC vs Bitcoin - Wahl zwischen Kontrolle und Freiheit",
+    "description": "Digitaler Euro - EZB bereitet sich auf totale Finanzkontrolle vor. Bitcoin bietet eine dezentrale Alternative. Vergleich, Bedrohungen und Lösungen.",
+    "ogTitle": "CBDC vs Bitcoin - Wahl zwischen Kontrolle und Freiheit",
+    "ogDescription": "Digitaler Euro = totale Kontrolle. Bitcoin = finanzielle Freiheit. Finden Sie heraus, warum CBDC eine Bedrohung ist und wie Sie sich schützen können.",
+    "imageAlt": "Bitcoin vs CBDC - Dezentralisierung vs Kontrolle"
+  },
+  "backToTop": "Nach oben",
+  "hero": {
+    "title": "Digitaler Euro vs Bitcoin",
+    "subtitle": "Wahl zwischen Kontrolle und Freiheit",
+    "cbdc": {
+      "title": "CBDC",
+      "items": [
+        "Zentrale Kontrolle",
+        "Überwachung",
+        "Programmierbare Tyrannei"
+      ]
+    },
+    "bitcoin": {
+      "title": "BITCOIN",
+      "items": [
+        "Dezentralisierung",
+        "Privatsphäre",
+        "Finanzielle Freiheit"
+      ]
+    }
+  },
+  "timeline": {
+    "title": "WAS PASSIERT",
+    "items": [
+      {
+        "date": "2023-2025",
+        "title": "Vorbereitungsphase",
+        "description": "EZB testet digitale Euro-Technologie. Offiziell \"nur Forschung\"."
+      },
+      {
+        "date": "2026-2027",
+        "title": "Politische Entscheidung",
+        "description": "Abstimmung über Implementierung. Lobbyarbeit, Propaganda, \"nationale Sicherheit\"."
+      },
+      {
+        "date": "2028-2030",
+        "title": "CBDC-Start",
+        "description": "Digitaler Euro eingeführt. Erst \"freiwillig\", dann verpflichtend."
+      },
+      {
+        "date": "2030+",
+        "title": "Ende des Bargelds",
+        "description": "Schrittweise Abschaffung von physischem Geld. Totale digitale Kontrolle."
+      }
+    ]
+  },
+  "video": {
+    "title": "Video ansehen",
+    "description": "Erklärung der CBDC-Problematik und warum sie eine Bedrohung für unsere finanzielle Freiheit darstellen."
+  },
+  "comparison": {
+    "title": "VERGLEICH",
+    "cbdc": {
+      "title": "CBDC (Digitaler Euro)",
+      "items": [
+        "Zentrale EZB-Kontrolle",
+        "Überwachung aller Transaktionen",
+        "Programmierbares Geld",
+        "Kontosperrung möglich",
+        "Negative Zinsen",
+        "Notfallkonfiszierung",
+        "Unbegrenztes Drucken (Inflation)",
+        "Politische Kontrolle"
+      ]
+    },
+    "bitcoin": {
+      "title": "BITCOIN",
+      "items": [
+        "Dezentralisiert (keine zentrale Autorität)",
+        "Private Transaktionen möglich",
+        "Unmöglich Regeln zu ändern",
+        "Unmöglich zu blockieren",
+        "Wertschutz",
+        "Selbstverwahrung (Ihre Schlüssel)",
+        "Festes 21M-Limit (keine Inflation)",
+        "Mathematik statt Politik"
+      ]
+    }
+  },
+  "threats": {
+    "title": "4 CBDC-BEDROHUNGEN",
+    "items": [
+      {
+        "number": "01",
+        "title": "Ende der Privatsphäre",
+        "description": "EZB wird jeden Kaffee, jedes Geschenk, jeden Kauf sehen. Totale Überwachung des Finanzlebens."
+      },
+      {
+        "number": "02",
+        "title": "Programmierbares Geld",
+        "description": "Geld, das verfällt. Kategorien, die Sie nicht kaufen können. Geografische Beschränkungen. Sozialkredit."
+      },
+      {
+        "number": "03",
+        "title": "Politische Kontrolle",
+        "description": "Protestieren? Konto eingefroren. Kritisieren? Zahlungen blockiert. Dissident? Finanziell tot."
+      },
+      {
+        "number": "04",
+        "title": "Bargeldabschaffung",
+        "description": "Zuerst \"Ergänzung\", dann \"bevorzugt\", schließlich die einzige Option. Bargeld verschwindet in der Praxis."
+      }
+    ]
+  },
+  "solution": {
+    "title": "BITCOIN = LÖSUNG",
+    "items": [
+      {
+        "icon": "🔓",
+        "title": "Dezentralisierung",
+        "description": "Keine Zentralbank. Keine Regierung. Kein CEO. Peer-to-Peer-Netzwerk weltweit."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Unmöglich zu blockieren",
+        "description": "Ihre Schlüssel = Ihr Geld. Niemand kann es Ihnen nehmen. Keine \"Zentrale\" zum Anrufen."
+      },
+      {
+        "icon": "🔢",
+        "title": "Festes Limit",
+        "description": "21.000.000 Bitcoins. NIE mehr. Mathematische Gewissheit. Schutz vor Inflation."
+      },
+      {
+        "icon": "🌍",
+        "title": "Global akzeptiert",
+        "description": "Funktioniert 24/7/365. Ohne Grenzen. Ohne Genehmigungen. Ohne Diskriminierung. Für jeden."
+      },
+      {
+        "icon": "🔐",
+        "title": "Kryptographisch gesichert",
+        "description": "Stärkstes Computernetzwerk der Welt. Über 15 Jahre ohne Ausfall. Zeitlich erprobt."
+      },
+      {
+        "icon": "👤",
+        "title": "Privatsphäre möglich",
+        "description": "Mit richtigen Praktiken anonymisiert. Lightning Network. CoinJoin. Eigener Node."
+      }
+    ]
+  },
+  "action": {
+    "title": "AKTIONSPLAN",
+    "steps": [
+      {
+        "number": "SCHRITT 1",
+        "title": "Bilden Sie sich weiter (1-2 Wochen)",
+        "description": "Lesen Sie \"The Bitcoin Standard\" oder andere Literatur. Folgen Sie <a href='https://einundzwanzig.space/' target='_blank'>einundzwanzig.space</a>. Verstehen Sie Technologiegrundlagen, Sicherheit und warum Bitcoin erstellt wurde."
+      },
+      {
+        "number": "SCHRITT 2",
+        "title": "Kaufen Sie einen kleinen Betrag (Test)",
+        "description": "50-100 € um den Prozess zu überprüfen. Idealerweise bei Bitcoinmate - kaufen Sie nicht an Börsen (wegen KYC)."
+      },
+      {
+        "number": "SCHRITT 3",
+        "title": "Kaufen Sie Hardware Wallet",
+        "description": "Trezor, Coldcard (50-150 €). Lassen Sie Bitcoin niemals an einer Börse. \"Not your keys, not your coins.\""
+      },
+      {
+        "number": "SCHRITT 4",
+        "title": "Sichern Sie Ihre Seed-Phrase",
+        "description": "12 oder 24 Wörter auf Papier. Idealerweise in Metall. NIEMALS digital. NIEMALS jemandem zeigen. Verloren = für immer verloren."
+      },
+      {
+        "number": "SCHRITT 5",
+        "title": "DCA-Strategie",
+        "description": "Dollar Cost Averaging. Kaufen Sie regelmäßig einen kleinen Betrag (50 € wöchentlich). Halten Sie langfristig (5+ Jahre). HODL."
+      },
+      {
+        "number": "SCHRITT 6",
+        "title": "Informationen verbreiten",
+        "description": "Teilen Sie dieses Dokument. Sprechen Sie mit Familie. Treten Sie der Bitcoin-Community bei. Helfen Sie anderen zu verstehen."
+      }
+    ]
+  },
+  "cta": {
+    "title": "DIE WAHL LIEGT BEI IHNEN",
+    "lines": [
+      "EZB verspricht Ihnen Bequemlichkeit.",
+      "Bitcoin gibt Ihnen Freiheit."
+    ],
+    "quote": "\"Ihr Geld = wirklich Ihres\"",
+    "politiciansLine": "Politiker sagen: \"Vertrauen Sie uns.\"",
+    "bitcoinLine": "Bitcoin sagt: \"Überprüfen Sie es selbst.\"",
+    "actionText": "Machen Sie heute den ersten Schritt. Solange Sie noch können.",
+    "button": "Jetzt starten ₿",
+    "footer": "Teilen • Drucken • Verteilen | Open-source • 2025"
+  },
+  "share": {
+    "title": "Teilen",
+    "text": "CBDC vs Bitcoin - Wahl zwischen Kontrolle und Freiheit",
+    "facebook": "Auf Facebook teilen",
+    "twitter": "Auf X/Twitter teilen",
+    "instagram": "Auf Instagram teilen",
+    "nostr": "Auf Nostr teilen",
+    "telegram": "Auf Telegram teilen",
+    "whatsapp": "Auf WhatsApp teilen"
+  },
+  "footer": {
+    "madeWith": "Gemacht mit 🧡 für ",
+    "social": {
+      "nostr": "Folge uns auf Nostr",
+      "twitter": "Folge uns auf X/Twitter",
+      "facebook": "Folge uns auf Facebook",
+      "youtube": "Folge uns auf YouTube",
+      "instagram": "Folge uns auf Instagram"
+    }
+  }
+}

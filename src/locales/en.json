@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "CBDC vs Bitcoin - Choice between Control and Freedom",
+    "description": "Digital euro - ECB preparing for total financial control. Bitcoin offers a decentralized alternative. Comparison, threats and solutions.",
+    "ogTitle": "CBDC vs Bitcoin - Choice between Control and Freedom",
+    "ogDescription": "Digital euro = total control. Bitcoin = financial freedom. Find out why CBDC is a threat and how to defend yourself.",
+    "imageAlt": "Bitcoin vs CBDC - Decentralization vs Control"
+  },
+  "backToTop": "Back to top",
+  "hero": {
+    "title": "Digital Euro vs Bitcoin",
+    "subtitle": "Choice between control and freedom",
+    "cbdc": {
+      "title": "CBDC",
+      "items": [
+        "Central control",
+        "Surveillance",
+        "Programmable tyranny"
+      ]
+    },
+    "bitcoin": {
+      "title": "BITCOIN",
+      "items": [
+        "Decentralization",
+        "Privacy",
+        "Financial freedom"
+      ]
+    }
+  },
+  "timeline": {
+    "title": "WHAT'S HAPPENING",
+    "items": [
+      {
+        "date": "2023-2025",
+        "title": "Preparation Phase",
+        "description": "ECB testing digital euro technology. Officially \"just research\"."
+      },
+      {
+        "date": "2026-2027",
+        "title": "Political Decision",
+        "description": "Voting on implementation. Lobbying, propaganda, \"national security\"."
+      },
+      {
+        "date": "2028-2030",
+        "title": "CBDC Launch",
+        "description": "Digital euro launched. First \"voluntary\", then mandatory."
+      },
+      {
+        "date": "2030+",
+        "title": "End of Cash",
+        "description": "Gradual elimination of physical money. Total digital control."
+      }
+    ]
+  },
+  "video": {
+    "title": "Watch the video",
+    "description": "Explanation of CBDC issues and why they pose a threat to our financial freedom."
+  },
+  "comparison": {
+    "title": "COMPARISON",
+    "cbdc": {
+      "title": "CBDC (Digital Euro)",
+      "items": [
+        "Central ECB control",
+        "Surveillance of all transactions",
+        "Programmable money",
+        "Account blocking possible",
+        "Negative interest rates",
+        "Emergency confiscation",
+        "Unlimited printing (inflation)",
+        "Political control"
+      ]
+    },
+    "bitcoin": {
+      "title": "BITCOIN",
+      "items": [
+        "Decentralized (no central authority)",
+        "Private transactions possible",
+        "Impossible to change rules",
+        "Impossible to block",
+        "Value protection",
+        "Self-custody (your keys)",
+        "Fixed 21M limit (no inflation)",
+        "Mathematics instead of politics"
+      ]
+    }
+  },
+  "threats": {
+    "title": "4 CBDC THREATS",
+    "items": [
+      {
+        "number": "01",
+        "title": "End of Privacy",
+        "description": "ECB will see every coffee, every gift, every purchase. Total surveillance of financial life."
+      },
+      {
+        "number": "02",
+        "title": "Programmable Money",
+        "description": "Money that expires. Categories you can't buy. Geographic restrictions. Social credit."
+      },
+      {
+        "number": "03",
+        "title": "Political Control",
+        "description": "Protesting? Account frozen. Criticizing? Payments blocked. Dissident? Financially dead."
+      },
+      {
+        "number": "04",
+        "title": "Cash Elimination",
+        "description": "First \"supplement\", then \"preferred\", finally the only option. Cash disappears in practice."
+      }
+    ]
+  },
+  "solution": {
+    "title": "BITCOIN = SOLUTION",
+    "items": [
+      {
+        "icon": "🔓",
+        "title": "Decentralization",
+        "description": "No central bank. No government. No CEO. Peer-to-peer network worldwide."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Impossible to Block",
+        "description": "Your keys = your money. Nobody can take them. No \"central office\" to call."
+      },
+      {
+        "icon": "🔢",
+        "title": "Fixed Limit",
+        "description": "21,000,000 bitcoins. NEVER more. Mathematical certainty. Protection against inflation."
+      },
+      {
+        "icon": "🌍",
+        "title": "Globally Accepted",
+        "description": "Works 24/7/365. Without borders. Without permissions. Without discrimination. For everyone."
+      },
+      {
+        "icon": "🔐",
+        "title": "Cryptographically Secured",
+        "description": "World's strongest computer network. 15+ years without downtime. Time-tested."
+      },
+      {
+        "icon": "👤",
+        "title": "Privacy Possible",
+        "description": "With proper practices anonymous. Lightning Network. CoinJoin. Own node."
+      }
+    ]
+  },
+  "action": {
+    "title": "ACTION PLAN",
+    "steps": [
+      {
+        "number": "STEP 1",
+        "title": "Educate Yourself (1-2 weeks)",
+        "description": "Read \"The Bitcoin Standard\" or other literature. Follow <a href='https://www.dvadsatjeden.org' target='_blank'>Dvadsatjeden.org</a>. Understand technology basics, security, and why Bitcoin was created."
+      },
+      {
+        "number": "STEP 2",
+        "title": "Buy Small Amount (testing)",
+        "description": "50-100 € to verify the process. Ideally at Bitcoinmate - don't buy on exchanges (because of KYC)."
+      },
+      {
+        "number": "STEP 3",
+        "title": "Buy Hardware Wallet",
+        "description": "Trezor, Coldcard (50-150 €). Never leave Bitcoin on exchange. \"Not your keys, not your coins.\""
+      },
+      {
+        "number": "STEP 4",
+        "title": "Backup Seed Phrase",
+        "description": "12 or 24 words on paper. Ideally in metal. NEVER digital. NEVER show anyone. Lost = lost forever."
+      },
+      {
+        "number": "STEP 5",
+        "title": "DCA Strategy",
+        "description": "Dollar Cost Averaging. Buy regularly small amount (50 € weekly). Hold long-term (5+ years). HODL."
+      },
+      {
+        "number": "STEP 6",
+        "title": "Spread Information",
+        "description": "Share this document. Talk with family. Join Bitcoin community. Help others understand."
+      }
+    ]
+  },
+  "cta": {
+    "title": "THE CHOICE IS YOURS",
+    "lines": [
+      "ECB promises you convenience.",
+      "Bitcoin gives you freedom."
+    ],
+    "quote": "\"Your money = truly yours\"",
+    "politiciansLine": "Politicians say: \"Trust us.\"",
+    "bitcoinLine": "Bitcoin says: \"Verify it yourself.\"",
+    "actionText": "Take the first step today. While you still can.",
+    "button": "Start Now ₿",
+    "footer": "Share • Print • Distribute | Open-source • 2025"    
+  },
+  "share": {
+    "title": "Share",
+    "text": "CBDC vs Bitcoin - Choice between Control and Freedom",
+    "facebook": "Share on Facebook",
+    "twitter": "Share on X/Twitter",
+    "instagram": "Share on Instagram",
+    "nostr": "Share on Nostr",
+    "telegram": "Share on Telegram",
+    "whatsapp": "Share on WhatsApp"
+  },
+  "footer": {
+    "madeWith": "Made with 🧡 for ",
+    "social": {
+      "nostr": "Follow us on Nostr",
+      "twitter": "Follow us on X/Twitter",
+      "facebook": "Follow us on Facebook",
+      "youtube": "Follow us on YouTube",
+      "instagram": "Follow us on Instagram"
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "CBDC vs Bitcoin - Voľba medzi kontrolou a slobodou",
+    "description": "Digitálne euro pripravuje ECB na totálnu finančnú kontrolu. Bitcoin ponúka decentralizovanú alternatívu. Porovnanie, hrozby a riešenia.",
+    "ogTitle": "CBDC vs Bitcoin - Voľba medzi kontrolou a slobodou",
+    "ogDescription": "Digitálne euro = totálna kontrola. Bitcoin = finančná sloboda. Zisti, prečo je CBDC hrozba a ako sa brániť.",
+    "imageAlt": "Bitcoin vs CBDC - Decentralizácia vs Kontrola"
+  },
+  "backToTop": "Späť hore",
+  "hero": {
+  "title": "Digitálne Euro vs Bitcoin",
+  "subtitle": "Voľba medzi kontrolou a slobodou",
+  "cbdc": {
+    "title": "CBDC",
+    "items": [
+      "Centrálna kontrola",
+      "Sledovanie",
+      "Programovateľná tyrania"
+    ]
+  },
+  "bitcoin": {
+    "title": "BITCOIN",
+    "items": [
+      "Decentralizácia",
+      "Súkromie",
+      "Finančná sloboda"
+    ]
+  }
+},
+  "timeline": {
+    "title": "ČO SA DEJE",
+    "items": [
+      {
+        "date": "2023-2025",
+        "title": "Prípravná fáza",
+        "description": "ECB testuje technológiu digitálneho eura. Oficiálne \"len výskum\"."
+      },
+      {
+        "date": "2026-2027",
+        "title": "Politické rozhodnutie",
+        "description": "Hlasovanie o zavedení. Lobbing, propaganda, \"národná bezpečnosť\"."
+      },
+      {
+        "date": "2028-2030",
+        "title": "Spustenie CBDC",
+        "description": "Digitálne euro spustené. Najskôr \"dobrovoľné\", potom povinné."
+      },
+      {
+        "date": "2030+",
+        "title": "Koniec hotovosti",
+        "description": "Postupné vytláčanie fyzických peňazí. Totálna digitálna kontrola."
+      }
+    ]
+  },
+  "video": {
+    "title": "Pozri si video",
+    "description": "Vysvetlenie problematiky CBDC a prečo predstavuje hrozbu pre našu finančnú slobodu."
+  },
+  "comparison": {
+    "title": "POROVNANIE",
+    "cbdc": {
+      "title": "CBDC (Digitálne Euro)",
+      "items": [
+        "Centrálna kontrola ECB",
+        "Sledovanie všetkých transakcií",
+        "Programovateľné peniaze",
+        "Možnosť blokovania účtu",
+        "Negatívne úroky",
+        "Núdzová konfiškácia",
+        "Neobmedzené tlačenie (inflácia)",
+        "Politická kontrola"
+      ]
+    },
+    "bitcoin": {
+      "title": "BITCOIN",
+      "items": [
+        "Decentralizovaný (žiadna centrála)",
+        "Súkromné transakcie možné",
+        "Nemožné meniť pravidlá",
+        "Nemožné zablokovať",
+        "Ochrana hodnoty",
+        "Self-custody (tvoje kľúče)",
+        "Fixný limit 21M (žiadna inflácia)",
+        "Matematika namiesto politiky"
+      ]
+    }
+  },
+  "threats": {
+    "title": "4 HROZBY CBDC",
+    "items": [
+      {
+        "number": "01",
+        "title": "Koniec súkromia",
+        "description": "ECB uvidí každú kávu, každý dar, každý nákup. Totálne sledovanie finančného života."
+      },
+      {
+        "number": "02",
+        "title": "Programovateľné peniaze",
+        "description": "Peniaze, ktoré expirujú. Kategórie, ktoré nemôžeš kúpiť. Geografické obmedzenia. Sociálny kredit."
+      },
+      {
+        "number": "03",
+        "title": "Politická kontrola",
+        "description": "Protestuješ? Konto zamrznuté. Kritizuješ? Platby blokované. Dissident? Finančne mŕtvy."
+      },
+      {
+        "number": "04",
+        "title": "Eliminovanie hotovosti",
+        "description": "Najskôr \"doplnok\", potom \"preferované\", nakoniec jediná možnosť. Hotovosť zmizne z obehu."
+      }
+    ]
+  },
+  "solution": {
+    "title": "BITCOIN = RIEŠENIE",
+    "items": [
+      {
+        "icon": "🔓",
+        "title": "Decentralizácia",
+        "description": "Žiadna centrálna banka. Žiadna vláda. Žiadny CEO. Peer-to-peer sieť po celom svete."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Nemožné zablokovať",
+        "description": "Tvoje kľúče = tvoje peniaze. Nikto ti ich nemôže vziať. Žiadna \"centrála\" na zavolanie."
+      },
+      {
+        "icon": "🔢",
+        "title": "Fixný limit",
+        "description": "21 000 000 bitcoinov. NIKDY viac. Matematická istota. Ochrana pred infláciou."
+      },
+      {
+        "icon": "🌍",
+        "title": "Globálne prijatý",
+        "description": "Funguje 24/7/365. Bez hraníc. Bez povolení. Bez diskriminácie. Pre každého."
+      },
+      {
+        "icon": "🔐",
+        "title": "Kryptograficky zabezpečený",
+        "description": "Najsilnejšia počítačová sieť sveta. 15+ rokov bez výpadku. Preverené časom."
+      },
+      {
+        "icon": "👤",
+        "title": "Súkromie možné",
+        "description": "So správnymi praktikami anonymné. Lightning Network. CoinJoin. Vlastný node."
+      }
+    ]
+  },
+  "action": {
+    "title": "AKČNÝ PLÁN",
+    "steps": [
+      {
+        "number": "KROK 1",
+        "title": "Vzdelaj sa (1-2 týždne)",
+        "description": "Prečítaj \"Bitcoin Standard\", či inú literatúru. Sleduj <a href='https://www.dvadsatjeden.org' target='_blank'>Dvadsatjeden.org</a>. Pochop základy technológie, bezpečnosti, a prečo Bitcoin vznikol."
+      },
+      {
+        "number": "KROK 2",
+        "title": "Kúp malú sumu (testovanie)",
+        "description": "50-100 € na overenie procesu. Ideálne v Bitcoinmate - nenakupuj na burze (kvôli KYC)."
+      },
+      {
+        "number": "KROK 3",
+        "title": "Kúp hardware wallet",
+        "description": "Trezor, Coldcard (50-150 €). Nikdy nenechávaj Bitcoin na burze. \"Not your keys, not your coins.\""
+      },
+      {
+        "number": "KROK 4",
+        "title": "Zálohuj seed frázu",
+        "description": "12 alebo 24 slov na papier. Ideálne do kovu. NIKDY digitálne. NIKDY nikomu neukazuj. Stratil si = stratil si navždy."
+      },
+      {
+        "number": "KROK 5",
+        "title": "DCA stratégia",
+        "description": "Dollar Cost Averaging. Kúp pravidelne malú sumu (50 € týždenne). Drž dlhodobo (5+ rokov). HODL."
+      },
+      {
+        "number": "KROK 6",
+        "title": "Šír informácie",
+        "description": "Zdieľaj tento dokument. Porozprávaj sa s rodinou. Pripoj sa k Bitcoin komunite. Pomôž iným pochopiť."
+      }
+    ]
+  },
+  "cta": {
+    "title": "ROZHODNUTIE JE NA TEBE",
+    "lines": [
+      "ECB ti sľubuje pohodlie.",
+      "Bitcoin ti dáva slobodu."
+    ],
+    "quote": "\"Tvoje peniaze = skutočne tvoje\"",
+    "politiciansLine": "Politici hovoria: \"Dôverujte nám.\"",
+    "bitcoinLine": "Bitcoin hovorí: \"Overte si to sami.\"",
+    "actionText": "Urob prvý krok dnes. Kým ešte môžeš.",
+    "button": "Začni teraz ₿",
+    "footer": "Zdieľaj • Tlač • Distribuuj | Open-source • 2025"
+  },
+  "share": {
+    "title": "Zdieľaj",
+    "text": "CBDC vs Bitcoin - Voľba medzi kontrolou a slobodou",
+    "facebook": "Zdieľať na Facebooku",
+    "twitter": "Zdieľať na X/Twitter",
+    "instagram": "Zdieľať na Instagrame",
+    "nostr": "Zdieľať na Nostr",
+    "telegram": "Zdieľať na Telegrame",
+    "whatsapp": "Zdieľať na WhatsApp"
+  },
+  "footer": {
+    "madeWith": "Vyrobené s 🧡 pre ",
+    "social": {
+      "nostr": "Sleduj nás na Nostr",
+      "twitter": "Sleduj nás na X/Twitter",
+      "facebook": "Sleduj nás na Facebooku",
+      "youtube": "Sleduj nás na YouTube",
+      "instagram": "Sleduj nás na Instagrame"
+    }
+  }
+}
