@@ -70,6 +70,11 @@ const siteData = computed(() => {
 })
 
 useHead(siteData)
+
+// Dynamically change html lang attribute
+watch(locale, (newLocale) => {
+  document.documentElement.setAttribute('lang', newLocale)
+}, { immediate: true })
 </script>
 
 <style>
