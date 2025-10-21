@@ -27,15 +27,15 @@ const currentLocale = computed(() => locale.value)
 const isOpen = ref(false)
 
 const languages = [
-  { code: 'sk', flag: '🇸🇰', path: '/' },
-  { code: 'en', flag: '🇬🇧', path: '/en' },
+  { code: 'en', flag: '🇬🇧', path: '/' },
+  { code: 'sk', flag: '🇸🇰', path: '/sk' },
   { code: 'es', flag: '🇪🇸', path: '/es' },
   { code: 'de', flag: '🇩🇪', path: '/de' }
 ]
 
 const getCurrentFlag = () => {
   const lang = languages.find(l => l.code === currentLocale.value)
-  return lang ? lang.flag : '🇸🇰'
+  return lang ? lang.flag : '🇬🇧'
 }
 
 const toggleDropdown = () => {

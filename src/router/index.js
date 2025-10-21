@@ -7,19 +7,19 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "home-sk",
-      component: Home,
-      beforeEnter: (to, from, next) => {
-        i18n.global.locale.value = "sk";
-        next();
-      },
-    },
-    {
-      path: "/en",
       name: "home-en",
       component: Home,
       beforeEnter: (to, from, next) => {
         i18n.global.locale.value = "en";
+        next();
+      },
+    },
+    {
+      path: "/sk",
+      name: "home-sk",
+      component: Home,
+      beforeEnter: (to, from, next) => {
+        i18n.global.locale.value = "sk";
         next();
       },
     },
