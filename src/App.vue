@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <LanguageSwitcher />
+    <!-- TrackerFloatingButton / -->
     <BackToTop />
     <router-view />
   </div>
@@ -13,6 +14,7 @@ import { useRoute } from 'vue-router'
 import { useHead } from '@vueuse/head'
 import LanguageSwitcher from './components/LanguageSwitcher.vue'
 import BackToTop from './components/BackToTop.vue'
+//import TrackerFloatingButton from './components/TrackerFloatingButton.vue'
 
 const { t, locale } = useI18n()
 const route = useRoute()

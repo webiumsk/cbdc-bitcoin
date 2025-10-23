@@ -1,0 +1,1920 @@
+{
+  "lastUpdated": "23-10-2025",
+  "countries": [
+    {
+      "id": "bahamas",
+      "name": "Bahamas",
+      "flag": "🇧🇸",
+      "cbdcName": "Sand Dollar",
+      "status": "launched",
+      "launchedYear": 2020,
+      "population": 400000,
+      "lat": 25.0343,
+      "lng": -77.3963,
+      "riskLevel": "high",
+      "description": "World's first fully deployed CBDC. Provides digital payment infrastructure for remote islands.",
+      "features": [
+        "Retail CBDC",
+        "Offline capability",
+        "Mobile wallet",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Transaction monitoring",
+        "Account freezing capability",
+        "Limited privacy",
+        "Cash displacement"
+      ],
+      "url": "https://www.sanddollar.bs/"
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "cbdcName": "eNaira",
+      "status": "launched",
+      "launchedYear": 2021,
+      "population": 223000000,
+      "lat": 9.082,
+      "lng": 8.6753,
+      "riskLevel": "extreme",
+      "description": "Africa's first CBDC. Low adoption despite aggressive government push and crypto restrictions.",
+      "features": [
+        "Retail CBDC",
+        "Mobile-first",
+        "Instant settlements",
+        "Government integration"
+      ],
+      "threats": [
+        "Full transaction surveillance",
+        "Cash displacement",
+        "Financial exclusion",
+        "Crypto restrictions",
+        "Capital controls"
+      ],
+      "url": "https://enaira.gov.ng/"
+    },
+    {
+      "id": "jamaica",
+      "name": "Jamaica",
+      "flag": "🇯🇲",
+      "cbdcName": "JAM-DEX",
+      "status": "launched",
+      "launchedYear": 2022,
+      "population": 2820000,
+      "lat": 18.1096,
+      "lng": -77.2975,
+      "riskLevel": "medium",
+      "description": "Digital Jamaican dollar operating alongside physical cash.",
+      "features": [
+        "Retail CBDC",
+        "Bank integration",
+        "Digital wallet",
+        "Interoperability"
+      ],
+      "threats": [
+        "Centralized control",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "eccu",
+      "name": "Eastern Caribbean",
+      "flag": "🏝️",
+      "cbdcName": "DCash",
+      "status": "pilot",
+      "launchedYear": 2021,
+      "population": 620000,
+      "lat": 15.415,
+      "lng": -61.371,
+      "riskLevel": "medium",
+      "description": "First CBDC in a currency union. Covers 8 islands. Temporarily offline in 2024 for technical issues.",
+      "features": [
+        "Currency union CBDC",
+        "Blockchain-based",
+        "Mobile payments",
+        "No bank account required"
+      ],
+      "threats": [
+        "Technical failures",
+        "Privacy concerns",
+        "Transaction tracking",
+        "Limited offline capability"
+      ],
+      "url": null
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "flag": "🇨🇳",
+      "cbdcName": "e-CNY (Digital Yuan)",
+      "status": "launched",
+      "launchedYear": 2020,
+      "population": 1412000000,
+      "lat": 35.8617,
+      "lng": 104.1954,
+      "riskLevel": "extreme",
+      "description": "World's largest CBDC pilot with 260M+ users. Over $1 trillion in transactions by 2024. Integrated with social credit system.",
+      "features": [
+        "Retail & Wholesale",
+        "Offline payments",
+        "Programmable money",
+        "Cross-border",
+        "Smart contracts"
+      ],
+      "threats": [
+        "Total surveillance",
+        "Social credit integration",
+        "Capital controls",
+        "Political control",
+        "Programmable restrictions",
+        "Censorship tool"
+      ],
+      "url": "https://www.pbc.gov.cn/"
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "flag": "🇮🇳",
+      "cbdcName": "e-Rupee (e₹)",
+      "status": "pilot",
+      "launchedYear": 2022,
+      "population": 1428000000,
+      "lat": 20.5937,
+      "lng": 78.9629,
+      "riskLevel": "high",
+      "description": "Second-largest CBDC pilot. Over ₹10 billion in circulation by 2025. Rapid expansion planned.",
+      "features": [
+        "Retail & Wholesale",
+        "QR code payments",
+        "Bank integration",
+        "Government bond settlements"
+      ],
+      "threats": [
+        "Mass surveillance",
+        "Financial control",
+        "Data collection",
+        "Privacy invasion"
+      ],
+      "url": "https://rbi.org.in/"
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "cbdcName": "Drex (Digital Real)",
+      "status": "pilot",
+      "launchedYear": 2024,
+      "population": 216000000,
+      "lat": -14.235,
+      "lng": -51.9253,
+      "riskLevel": "high",
+      "description": "Advanced programmable money with smart contracts. Asset tokenization and DeFi integration.",
+      "features": [
+        "Programmable payments",
+        "Smart contracts",
+        "Asset tokenization",
+        "DeFi integration"
+      ],
+      "threats": [
+        "Transaction freezing",
+        "Programmable restrictions",
+        "Privacy loss",
+        "Financial surveillance"
+      ],
+      "url": "https://www.bcb.gov.br/"
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "cbdcName": "Digital Ruble",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 144000000,
+      "lat": 61.524,
+      "lng": 105.3188,
+      "riskLevel": "extreme",
+      "description": "Expanding despite sanctions. Used for capital controls and sanctions evasion.",
+      "features": [
+        "Retail CBDC",
+        "Offline capability",
+        "Cross-border",
+        "Sanctions bypass"
+      ],
+      "threats": [
+        "State surveillance",
+        "Capital controls",
+        "Sanctions evasion",
+        "Authoritarian control",
+        "Political repression"
+      ],
+      "url": "https://www.cbr.ru/"
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "cbdcName": "e-Krona",
+      "status": "pilot",
+      "launchedYear": 2020,
+      "population": 10500000,
+      "lat": 60.1282,
+      "lng": 18.6435,
+      "riskLevel": "high",
+      "description": "Testing as cash usage drops below 10%. Privacy-focused design but cash elimination concerns.",
+      "features": [
+        "Retail CBDC",
+        "Distributed ledger",
+        "Privacy layers",
+        "Offline capability"
+      ],
+      "threats": [
+        "Cash elimination",
+        "Transaction tracking",
+        "Negative interest rates",
+        "Financial exclusion"
+      ],
+      "url": "https://www.riksbank.se/"
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "cbdcName": "Digital Baht",
+      "status": "pilot",
+      "launchedYear": 2022,
+      "population": 71800000,
+      "lat": 15.87,
+      "lng": 100.9925,
+      "riskLevel": "high",
+      "description": "Retail CBDC pilot for domestic payments. Surveillance concerns under military influence.",
+      "features": [
+        "Retail payments",
+        "Mobile integration",
+        "Bank partnerships"
+      ],
+      "threats": [
+        "Government surveillance",
+        "Political control",
+        "Privacy concerns",
+        "Authoritarian use"
+      ],
+      "url": null
+    },
+    {
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "cbdcName": "Project Aber",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 36400000,
+      "lat": 23.8859,
+      "lng": 45.0792,
+      "riskLevel": "extreme",
+      "description": "Wholesale CBDC with UAE for cross-border settlements. Retail research expanding.",
+      "features": [
+        "Wholesale CBDC",
+        "Cross-border settlements",
+        "Bank integration"
+      ],
+      "threats": [
+        "Authoritarian surveillance",
+        "Financial control",
+        "Human rights concerns",
+        "Cross-border tracking"
+      ],
+      "url": null
+    },
+    {
+      "id": "uae",
+      "name": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "cbdcName": "Digital Dirham",
+      "status": "pilot",
+      "launchedYear": 2024,
+      "population": 9441000,
+      "lat": 23.4241,
+      "lng": 53.8478,
+      "riskLevel": "high",
+      "description": "Cross-border CBDC focus. First cross-border payment to China in 2024.",
+      "features": [
+        "Cross-border settlements",
+        "Interoperability",
+        "Trade finance",
+        "Wholesale CBDC"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Cross-border tracking",
+        "Privacy concerns",
+        "Capital monitoring"
+      ],
+      "url": null
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "flag": "🇹🇷",
+      "cbdcName": "Digital Lira",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 85300000,
+      "lat": 38.9637,
+      "lng": 35.2433,
+      "riskLevel": "high",
+      "description": "Testing digital lira amid high inflation. First transactions completed in 2022.",
+      "features": [
+        "Retail CBDC",
+        "Mobile payments",
+        "Inflation hedge"
+      ],
+      "threats": [
+        "Government control",
+        "Surveillance",
+        "Capital controls",
+        "Political pressure"
+      ],
+      "url": null
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "cbdcName": "Digital Yen",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 123300000,
+      "lat": 36.2048,
+      "lng": 138.2529,
+      "riskLevel": "medium",
+      "description": "Multi-phase pilot by Bank of Japan. Focus on offline capability and privacy.",
+      "features": [
+        "Retail CBDC",
+        "Offline payments",
+        "Privacy features",
+        "Universal design"
+      ],
+      "threats": [
+        "Transaction monitoring",
+        "Privacy concerns",
+        "Cash displacement"
+      ],
+      "url": null
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "cbdcName": "Digital Won",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 51700000,
+      "lat": 35.9078,
+      "lng": 127.7669,
+      "riskLevel": "medium",
+      "description": "Testing retail CBDC with fintech integration and cross-border settlements.",
+      "features": [
+        "Retail CBDC",
+        "Fintech integration",
+        "Cross-border",
+        "Smart contracts"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "cbdcName": "Project Orchid",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 5686000,
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "riskLevel": "medium",
+      "description": "Wholesale CBDC focus. Testing cross-border and multi-currency settlements.",
+      "features": [
+        "Wholesale CBDC",
+        "Cross-border",
+        "Multi-currency",
+        "DeFi compatible"
+      ],
+      "threats": [
+        "Financial surveillance",
+        "Capital monitoring",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "cbdcName": "eAUD",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 26400000,
+      "lat": -25.2744,
+      "lng": 133.7751,
+      "riskLevel": "medium",
+      "description": "Pilot focusing on wholesale use cases. Retail CBDC development on hold.",
+      "features": [
+        "Wholesale focus",
+        "Industry pilots",
+        "Asset tokenization"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns",
+        "Cash phase-out risk"
+      ],
+      "url": null
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "cbdcName": "Project Khokha",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 60600000,
+      "lat": -30.5595,
+      "lng": 22.9375,
+      "riskLevel": "medium",
+      "description": "Testing wholesale CBDC for interbank settlements and financial inclusion.",
+      "features": [
+        "Wholesale CBDC",
+        "Interbank settlements",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "kazakhstan",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "cbdcName": "Digital Tenge",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 19600000,
+      "lat": 48.0196,
+      "lng": 66.9237,
+      "riskLevel": "high",
+      "description": "Pilot running through 2025. Focus on financial inclusion and reducing cash.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Government control",
+        "Surveillance",
+        "Privacy concerns",
+        "Authoritarian risk"
+      ],
+      "url": null
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "cbdcName": "Project CBDCPh",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 117300000,
+      "lat": 12.8797,
+      "lng": 121.774,
+      "riskLevel": "medium",
+      "description": "Wholesale CBDC pilot with select financial institutions through 2024.",
+      "features": [
+        "Wholesale CBDC",
+        "Bank integration",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "ukraine",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "cbdcName": "e-Hryvnia",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 36700000,
+      "lat": 48.3794,
+      "lng": 31.1656,
+      "riskLevel": "medium",
+      "description": "Accelerated pilot. Government officials taking salaries in digital currency.",
+      "features": [
+        "Retail CBDC",
+        "Government integration",
+        "Digital transformation"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Wartime control risks"
+      ],
+      "url": null
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "cbdcName": "Crypto Rial",
+      "status": "launched",
+      "launchedYear": 2023,
+      "population": 89200000,
+      "lat": 32.4279,
+      "lng": 53.688,
+      "riskLevel": "extreme",
+      "description": "Digital rial for sanctions evasion and capital control. Extreme surveillance risk.",
+      "features": [
+        "Retail CBDC",
+        "Sanctions bypass",
+        "Capital controls"
+      ],
+      "threats": [
+        "Extreme surveillance",
+        "Authoritarian control",
+        "Sanctions evasion",
+        "Financial repression",
+        "Privacy elimination"
+      ],
+      "url": null
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "cbdcName": "e-HKD",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 7413000,
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "riskLevel": "high",
+      "description": "Multiple pilots for retail and wholesale. Integration with China's e-CNY planned.",
+      "features": [
+        "Retail & Wholesale",
+        "Cross-border integration",
+        "Fintech sandbox"
+      ],
+      "threats": [
+        "Chinese government influence",
+        "Surveillance",
+        "Political control",
+        "Reduced autonomy"
+      ],
+      "url": null
+    },
+    {
+      "id": "laos",
+      "name": "Laos",
+      "flag": "🇱🇦",
+      "cbdcName": "Digital Lao Kip (DLak)",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 7633000,
+      "lat": 19.8563,
+      "lng": 102.4955,
+      "riskLevel": "high",
+      "description": "Testing prototype since 2023. Focus on reducing dollarization.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "De-dollarization"
+      ],
+      "threats": [
+        "Government control",
+        "Surveillance",
+        "Privacy concerns",
+        "Authoritarian risk"
+      ],
+      "url": null
+    },
+    {
+      "id": "eu",
+      "name": "European Union",
+      "flag": "🇪🇺",
+      "cbdcName": "Digital Euro",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 450000000,
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "riskLevel": "high",
+      "description": "ECB preparing digital euro for 2028 launch. Transaction limits and holding caps planned.",
+      "features": [
+        "Retail CBDC",
+        "Tiered privacy",
+        "Offline capability",
+        "Holding limits (€3,000)",
+        "Bank intermediation"
+      ],
+      "threats": [
+        "Transaction limits",
+        "Holding caps",
+        "Negative interest rates",
+        "Programmability",
+        "Cash phase-out",
+        "Privacy erosion"
+      ],
+      "url": "https://www.ecb.europa.eu/paym/digital_euro/html/index.en.html"
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "cbdcName": "Britcoin (Digital Pound)",
+      "status": "development",
+      "launchedYear": 2025,
+      "population": 68000000,
+      "lat": 55.3781,
+      "lng": -3.436,
+      "riskLevel": "high",
+      "description": "Bank of England developing digital pound. Expected launch 2025-2030.",
+      "features": [
+        "Retail CBDC",
+        "Privacy protections",
+        "Bank integration",
+        "Two-tier system"
+      ],
+      "threats": [
+        "Programmable money",
+        "Transaction monitoring",
+        "Cash elimination",
+        "Financial surveillance"
+      ],
+      "url": "https://www.bankofengland.co.uk/"
+    },
+    {
+      "id": "israel",
+      "name": "Israel",
+      "flag": "🇮🇱",
+      "cbdcName": "Digital Shekel",
+      "status": "development",
+      "launchedYear": null,
+      "population": 9557000,
+      "lat": 31.0461,
+      "lng": 34.8516,
+      "riskLevel": "high",
+      "description": "Extensive draft design released 2025. Offline and programmable features.",
+      "features": [
+        "Retail CBDC",
+        "Offline mode",
+        "Programmable functions",
+        "Smart contracts",
+        "Digital Shekel Challenge"
+      ],
+      "threats": [
+        "Programmable restrictions",
+        "Surveillance",
+        "Privacy concerns",
+        "Cash elimination"
+      ],
+      "url": null
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesia",
+      "flag": "🇮🇩",
+      "cbdcName": "Digital Rupiah (Garuda)",
+      "status": "development",
+      "launchedYear": null,
+      "population": 277500000,
+      "lat": -0.7893,
+      "lng": 113.9213,
+      "riskLevel": "medium",
+      "description": "Garuda Project launched 2022. Digital Rupiah legalized in 2024.",
+      "features": [
+        "Retail CBDC",
+        "Legal framework established",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "cbdcName": "Digital Dollar",
+      "status": "cancelled",
+      "launchedYear": null,
+      "population": 335000000,
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "riskLevel": "high",
+      "description": "Trump executive order (Jan 2025) halted all CBDC work. Only country to officially cancel CBDC. Wholesale cross-border research continues via Project Agorá.",
+      "features": [
+        "Cancelled by executive order",
+        "Wholesale research only",
+        "Political opposition",
+        "Constitutional concerns"
+      ],
+      "threats": [
+        "Government surveillance",
+        "Financial censorship",
+        "Privacy invasion",
+        "Constitutional concerns"
+      ],
+      "url": "https://www.federalreserve.gov/"
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "cbdcName": "Digital Canadian Dollar",
+      "status": "research",
+      "launchedYear": null,
+      "population": 39000000,
+      "lat": 56.1304,
+      "lng": -106.3468,
+      "riskLevel": "medium",
+      "description": "Project Jasper completed. Active development paused in late 2024.",
+      "features": [
+        "Research phase",
+        "Project Jasper",
+        "Public consultation",
+        "On hold"
+      ],
+      "threats": [
+        "Potential surveillance",
+        "Cash displacement",
+        "Privacy concerns"
+      ],
+      "url": "https://www.bankofcanada.ca/"
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "cbdcName": "Project Helvetia",
+      "status": "research",
+      "launchedYear": null,
+      "population": 8796000,
+      "lat": 46.8182,
+      "lng": 8.2275,
+      "riskLevel": "medium",
+      "description": "Wholesale CBDC trials. Project Helvetia III extended. Public resistance strong.",
+      "features": [
+        "Wholesale CBDC",
+        "Stock exchange integration",
+        "Cross-border trials"
+      ],
+      "threats": [
+        "Cash elimination concerns",
+        "Surveillance potential",
+        "Privacy advocacy strong"
+      ],
+      "url": null
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "cbdcName": "Digital Krone",
+      "status": "research",
+      "launchedYear": null,
+      "population": 5488000,
+      "lat": 60.472,
+      "lng": 8.4689,
+      "riskLevel": "medium",
+      "description": "Norges Bank researching CBDC. Focus on declining cash usage.",
+      "features": [
+        "Research phase",
+        "Cash decline study",
+        "Privacy focus"
+      ],
+      "threats": [
+        "Cash elimination",
+        "Privacy concerns",
+        "Surveillance potential"
+      ],
+      "url": null
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "cbdcName": "Digital Peso",
+      "status": "research",
+      "launchedYear": null,
+      "population": 128900000,
+      "lat": 23.6345,
+      "lng": -102.5528,
+      "riskLevel": "medium",
+      "description": "Bank of Mexico researching CBDC. Focus on financial inclusion and remittances.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Remittance focus"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns",
+        "Capital controls"
+      ],
+      "url": null
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "cbdcName": "Digital Peso",
+      "status": "research",
+      "launchedYear": null,
+      "population": 45800000,
+      "lat": -38.4161,
+      "lng": -63.6167,
+      "riskLevel": "medium",
+      "description": "Early research phase. Focus on combating high inflation and dollarization.",
+      "features": [
+        "Research phase",
+        "Inflation response",
+        "Dollarization concern"
+      ],
+      "threats": [
+        "Capital controls",
+        "Surveillance",
+        "Economic instability risks"
+      ],
+      "url": null
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "cbdcName": "Digital NZ Dollar",
+      "status": "research",
+      "launchedYear": null,
+      "population": 5223000,
+      "lat": -40.9006,
+      "lng": 174.886,
+      "riskLevel": "medium",
+      "description": "Reserve Bank of New Zealand conducting research. Public consultation ongoing.",
+      "features": [
+        "Research phase",
+        "Public consultation",
+        "Cash usage study"
+      ],
+      "threats": [
+        "Cash elimination",
+        "Privacy concerns",
+        "Surveillance potential"
+      ],
+      "url": null
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "cbdcName": "e-Cedi",
+      "status": "pilot",
+      "launchedYear": 2024,
+      "population": 34100000,
+      "lat": 7.9465,
+      "lng": -1.0232,
+      "riskLevel": "medium",
+      "description": "Pilot launched in 2024. Focus on financial inclusion and remittances.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "Mobile-first",
+        "Remittances"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "cbdcName": "Digital Ringgit",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 34300000,
+      "lat": 4.2105,
+      "lng": 101.9758,
+      "riskLevel": "medium",
+      "description": "Wholesale CBDC pilot for interbank settlements and Islamic finance integration.",
+      "features": [
+        "Wholesale CBDC",
+        "Islamic finance",
+        "Cross-border settlements"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "cbdcName": "Digital Dong",
+      "status": "pilot",
+      "launchedYear": 2024,
+      "population": 98900000,
+      "lat": 14.0583,
+      "lng": 108.2772,
+      "riskLevel": "high",
+      "description": "Pilot testing for retail CBDC. Government control concerns in one-party state.",
+      "features": [
+        "Retail CBDC",
+        "Mobile payments",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Authoritarian surveillance",
+        "Political control",
+        "Privacy elimination",
+        "Capital controls"
+      ],
+      "url": null
+    },
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "flag": "🇳🇵",
+      "cbdcName": "Digital Rupee (NPR)",
+      "status": "pilot",
+      "launchedYear": 2025,
+      "population": 30900000,
+      "lat": 28.3949,
+      "lng": 84.124,
+      "riskLevel": "medium",
+      "description": "Preliminary pilot testing started April 2025. Focus on financial inclusion.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns",
+        "Infrastructure challenges"
+      ],
+      "url": null
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "flag": "🇰🇭",
+      "cbdcName": "Bakong",
+      "status": "pilot",
+      "launchedYear": 2020,
+      "population": 17200000,
+      "lat": 12.5657,
+      "lng": 104.991,
+      "riskLevel": "high",
+      "description": "Blockchain-based retail CBDC launched October 2020. Cross-border remittances focus.",
+      "features": [
+        "Retail CBDC",
+        "Blockchain-based",
+        "Cross-border remittances",
+        "QR payments"
+      ],
+      "threats": [
+        "Authoritarian surveillance",
+        "Political control",
+        "Privacy concerns",
+        "Capital monitoring"
+      ],
+      "url": null
+    },
+    {
+      "id": "kenya",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "cbdcName": "Digital Shilling",
+      "status": "pilot",
+      "launchedYear": 2024,
+      "population": 55100000,
+      "lat": -0.0236,
+      "lng": 37.9062,
+      "riskLevel": "medium",
+      "description": "Pilot launched 2024. Building on M-Pesa mobile money success.",
+      "features": [
+        "Retail CBDC",
+        "Mobile money integration",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "zimbabwe",
+      "name": "Zimbabwe",
+      "flag": "🇿🇼",
+      "cbdcName": "ZiG (Zimbabwe Gold)",
+      "status": "research",
+      "launchedYear": 2024,
+      "population": 16600000,
+      "lat": -19.0154,
+      "lng": 29.1549,
+      "riskLevel": "high",
+      "description": "Gold-backed CBDC launched 2024. Response to hyperinflation and currency instability.",
+      "features": [
+        "Gold-backed CBDC",
+        "Inflation hedge",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Government control",
+        "Economic instability",
+        "Surveillance",
+        "Capital controls"
+      ],
+      "url": null
+    },
+    {
+      "id": "egypt",
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "cbdcName": "Digital Pound (EGP)",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 112700000,
+      "lat": 26.8206,
+      "lng": 30.8025,
+      "riskLevel": "high",
+      "description": "Retail CBDC pilot. Concerns about authoritarian surveillance and capital controls.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Authoritarian surveillance",
+        "Political control",
+        "Capital controls",
+        "Privacy elimination"
+      ],
+      "url": null
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "cbdcName": "Digital Dirham (MAD)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 37800000,
+      "lat": 31.7917,
+      "lng": -7.0926,
+      "riskLevel": "medium",
+      "description": "Bank Al-Maghrib researching CBDC options. Focus on financial inclusion.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Remittance focus"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "flag": "🇫🇷",
+      "cbdcName": "Digital Euro (France)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 68000000,
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "riskLevel": "high",
+      "description": "Part of EU Digital Euro project. Extensive wholesale CBDC trials completed.",
+      "features": [
+        "Retail CBDC",
+        "Wholesale trials",
+        "Cross-border settlements"
+      ],
+      "threats": [
+        "Transaction monitoring",
+        "Privacy erosion",
+        "Cash displacement"
+      ],
+      "url": null
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "cbdcName": "Digital Euro (Germany)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 84500000,
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "riskLevel": "high",
+      "description": "Part of EU Digital Euro. Strong public resistance due to privacy concerns and cash preference.",
+      "features": [
+        "Retail CBDC",
+        "Privacy focus",
+        "Offline capability"
+      ],
+      "threats": [
+        "Privacy concerns",
+        "Cash elimination fears",
+        "Transaction monitoring"
+      ],
+      "url": null
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "cbdcName": "Digital Euro (Italy)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 58900000,
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "riskLevel": "high",
+      "description": "Part of EU Digital Euro project. Testing retail and wholesale use cases.",
+      "features": [
+        "Retail CBDC",
+        "Bank integration",
+        "EU-wide interoperability"
+      ],
+      "threats": [
+        "Transaction limits",
+        "Privacy erosion",
+        "Cash phase-out"
+      ],
+      "url": null
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "cbdcName": "Digital Euro (Spain)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 47800000,
+      "lat": 40.4637,
+      "lng": -3.7492,
+      "riskLevel": "high",
+      "description": "Part of EU Digital Euro. Active in wholesale CBDC trials.",
+      "features": [
+        "Retail CBDC",
+        "Wholesale trials",
+        "Cross-border focus"
+      ],
+      "threats": [
+        "Transaction monitoring",
+        "Privacy concerns",
+        "Holding caps"
+      ],
+      "url": null
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "cbdcName": "Digital Euro (Netherlands)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 17800000,
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "riskLevel": "medium",
+      "description": "Part of EU Digital Euro. Focus on innovation and privacy-preserving tech.",
+      "features": [
+        "Retail CBDC",
+        "Privacy tech",
+        "Fintech integration"
+      ],
+      "threats": [
+        "Transaction monitoring",
+        "Privacy concerns",
+        "Cash decline"
+      ],
+      "url": null
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "cbdcName": "Digital Peso (COP)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 52100000,
+      "lat": 4.5709,
+      "lng": -74.2973,
+      "riskLevel": "medium",
+      "description": "Banco de la República researching CBDC. Focus on financial inclusion.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Retail focus"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "cbdcName": "Digital Peso (CLP)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 19600000,
+      "lat": -35.6751,
+      "lng": -71.543,
+      "riskLevel": "medium",
+      "description": "Central Bank of Chile researching CBDC options and implications.",
+      "features": [
+        "Research phase",
+        "Public consultation"
+      ],
+      "threats": [
+        "Privacy concerns",
+        "Cash displacement potential"
+      ],
+      "url": null
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "flag": "🇵🇪",
+      "cbdcName": "Digital Sol",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 34400000,
+      "lat": -9.19,
+      "lng": -75.0152,
+      "riskLevel": "medium",
+      "description": "CBDC pilot started 2023. Modernizing national financial infrastructure.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Data collection"
+      ],
+      "url": null
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "cbdcName": "e-Peso",
+      "status": "research",
+      "launchedYear": null,
+      "population": 3423000,
+      "lat": -32.5228,
+      "lng": -55.7658,
+      "riskLevel": "low",
+      "description": "Completed pilot test in 2017. Currently researching next steps.",
+      "features": [
+        "Research phase",
+        "Pilot completed",
+        "Retail focus"
+      ],
+      "threats": [
+        "Privacy concerns",
+        "Limited adoption risk"
+      ],
+      "url": null
+    },
+    {
+      "id": "bahrain",
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "cbdcName": "Digital Dinar",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 1464000,
+      "lat": 26.0667,
+      "lng": 50.5577,
+      "riskLevel": "high",
+      "description": "Wholesale CBDC pilot for cross-border settlements with regional partners.",
+      "features": [
+        "Wholesale CBDC",
+        "Cross-border",
+        "Islamic finance"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Capital monitoring"
+      ],
+      "url": null
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "cbdcName": "Digital Riyal",
+      "status": "research",
+      "launchedYear": null,
+      "population": 2688000,
+      "lat": 25.3548,
+      "lng": 51.1839,
+      "riskLevel": "medium",
+      "description": "Qatar Central Bank researching CBDC for wholesale and retail use.",
+      "features": [
+        "Research phase",
+        "Wholesale focus",
+        "Cross-border"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "fiji",
+      "name": "Fiji",
+      "flag": "🇫🇯",
+      "cbdcName": "Digital Fiji Dollar",
+      "status": "research",
+      "launchedYear": null,
+      "population": 929000,
+      "lat": -17.7134,
+      "lng": 178.065,
+      "riskLevel": "low",
+      "description": "Reserve Bank of Fiji researching CBDC for financial inclusion.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Island connectivity"
+      ],
+      "threats": [
+        "Privacy concerns",
+        "Infrastructure challenges"
+      ],
+      "url": null
+    },
+    {
+      "id": "taiwan",
+      "name": "Taiwan",
+      "flag": "🇹🇼",
+      "cbdcName": "Digital Taiwan Dollar",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 23900000,
+      "lat": 23.6978,
+      "lng": 120.9605,
+      "riskLevel": "medium",
+      "description": "Central Bank testing retail CBDC. Focus on technology and privacy.",
+      "features": [
+        "Retail CBDC",
+        "Privacy features",
+        "Tech innovation"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Chinese pressure"
+      ],
+      "url": null
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "cbdcName": "Digital Zloty",
+      "status": "research",
+      "launchedYear": null,
+      "population": 37700000,
+      "lat": 51.9194,
+      "lng": 19.1451,
+      "riskLevel": "low",
+      "description": "National Bank strongly opposed to CBDC. Public resistance to digital surveillance.",
+      "features": [
+        "Opposition",
+        "Cash preference",
+        "Privacy advocacy"
+      ],
+      "threats": [
+        "Potential surveillance if implemented",
+        "Cash elimination fears"
+      ],
+      "url": null
+    },
+    {
+      "id": "denmark",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "cbdcName": "Digital Krone",
+      "status": "research",
+      "launchedYear": null,
+      "population": 5928000,
+      "lat": 56.2639,
+      "lng": 9.5018,
+      "riskLevel": "medium",
+      "description": "Danmarks Nationalbank researching CBDC but no immediate plans.",
+      "features": [
+        "Research phase",
+        "Retail focus",
+        "Payment modernization"
+      ],
+      "threats": [
+        "Cash elimination",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "austria",
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "cbdcName": "Digital Euro (Austria)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 9120000,
+      "lat": 47.5162,
+      "lng": 14.5501,
+      "riskLevel": "medium",
+      "description": "Part of EU Digital Euro project. Strong cash culture and privacy concerns.",
+      "features": [
+        "Retail CBDC",
+        "EU integration",
+        "Privacy focus"
+      ],
+      "threats": [
+        "Privacy concerns",
+        "Cash preference",
+        "Transaction monitoring"
+      ],
+      "url": null
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "cbdcName": "Digital Euro (Belgium)",
+      "status": "development",
+      "launchedYear": 2028,
+      "population": 11700000,
+      "lat": 50.5039,
+      "lng": 4.4699,
+      "riskLevel": "medium",
+      "description": "Part of EU Digital Euro. ECB headquarters involvement in development.",
+      "features": [
+        "Retail CBDC",
+        "EU integration",
+        "Fintech focus"
+      ],
+      "threats": [
+        "Transaction monitoring",
+        "Privacy erosion"
+      ],
+      "url": null
+    },
+    {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "cbdcName": "Digital Rupee (PKR)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 240500000,
+      "lat": 30.3753,
+      "lng": 69.3451,
+      "riskLevel": "high",
+      "description": "State Bank researching CBDC for financial inclusion and remittances.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Remittance focus"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Political instability",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "cbdcName": "Digital Taka",
+      "status": "research",
+      "launchedYear": null,
+      "population": 173600000,
+      "lat": 23.685,
+      "lng": 90.3563,
+      "riskLevel": "medium",
+      "description": "Bangladesh Bank researching CBDC. Mobile money integration planned.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Mobile money"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns",
+        "Infrastructure challenges"
+      ],
+      "url": null
+    },
+    {
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "cbdcName": "Digital Rupee (LKR)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 22200000,
+      "lat": 7.8731,
+      "lng": 80.7718,
+      "riskLevel": "medium",
+      "description": "Central Bank researching CBDC amid economic crisis recovery.",
+      "features": [
+        "Research phase",
+        "Economic recovery",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Economic instability",
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "mongolia",
+      "name": "Mongolia",
+      "flag": "🇲🇳",
+      "cbdcName": "Digital Tugrik",
+      "status": "research",
+      "launchedYear": null,
+      "population": 3447000,
+      "lat": 46.8625,
+      "lng": 103.8467,
+      "riskLevel": "medium",
+      "description": "Bank of Mongolia researching CBDC for financial modernization.",
+      "features": [
+        "Research phase",
+        "Financial modernization",
+        "Rural inclusion"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Chinese influence"
+      ],
+      "url": null
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "cbdcName": "Digital Shilling (TZS)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 67400000,
+      "lat": -6.369,
+      "lng": 34.8888,
+      "riskLevel": "medium",
+      "description": "Bank of Tanzania researching CBDC for financial inclusion.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Mobile money"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "flag": "🇪🇹",
+      "cbdcName": "Digital Birr",
+      "status": "pilot",
+      "launchedYear": 2024,
+      "population": 126500000,
+      "lat": 9.145,
+      "lng": 40.4897,
+      "riskLevel": "high",
+      "description": "Pilot testing for retail CBDC. Concerns about authoritarian control.",
+      "features": [
+        "Retail CBDC",
+        "Financial inclusion",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Authoritarian surveillance",
+        "Political control",
+        "Privacy elimination",
+        "Internet shutdowns"
+      ],
+      "url": null
+    },
+    {
+      "id": "rwanda",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "cbdcName": "Digital Franc",
+      "status": "research",
+      "launchedYear": null,
+      "population": 14100000,
+      "lat": -1.9403,
+      "lng": 29.8739,
+      "riskLevel": "medium",
+      "description": "National Bank researching CBDC. Tech-focused financial innovation.",
+      "features": [
+        "Research phase",
+        "Tech innovation",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "tunisia",
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "cbdcName": "Digital Dinar (TND)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 12500000,
+      "lat": 33.8869,
+      "lng": 9.5375,
+      "riskLevel": "medium",
+      "description": "Central Bank researching CBDC amid economic challenges.",
+      "features": [
+        "Research phase",
+        "Economic reform",
+        "Financial inclusion"
+      ],
+      "threats": [
+        "Political instability",
+        "Surveillance potential"
+      ],
+      "url": null
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "cbdcName": "Dinero Electrónico",
+      "status": "cancelled",
+      "launchedYear": null,
+      "population": 18200000,
+      "lat": -1.8312,
+      "lng": -78.1834,
+      "riskLevel": "low",
+      "description": "CBDC pilot ran 2014-2018. Discontinued due to low adoption. Historical CBDC case study.",
+      "features": [
+        "Discontinued",
+        "Historical case",
+        "Mobile payments"
+      ],
+      "threats": [
+        "Low adoption lesson"
+      ],
+      "url": null
+    },
+    {
+      "id": "venezuela",
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "cbdcName": "Petro",
+      "status": "cancelled",
+      "launchedYear": null,
+      "population": 28300000,
+      "lat": 6.4238,
+      "lng": -66.5897,
+      "riskLevel": "extreme",
+      "description": "Oil-backed cryptocurrency launched 2018. Not a true CBDC. Failed due to sanctions and lack of trust.",
+      "features": [
+        "Cryptocurrency",
+        "Oil-backed",
+        "Sanctions evasion attempt"
+      ],
+      "threats": [
+        "Government control",
+        "Economic mismanagement",
+        "International sanctions"
+      ],
+      "url": null
+    },
+    {
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "flag": "🇨🇷",
+      "cbdcName": "Digital Colon",
+      "status": "research",
+      "launchedYear": null,
+      "population": 5213000,
+      "lat": 9.7489,
+      "lng": -83.7534,
+      "riskLevel": "low",
+      "description": "Central Bank researching CBDC. Strong democratic institutions.",
+      "features": [
+        "Research phase",
+        "Democratic oversight",
+        "Financial innovation"
+      ],
+      "threats": [
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "papua-new-guinea",
+      "name": "Papua New Guinea",
+      "flag": "🇵🇬",
+      "cbdcName": "Digital Kina",
+      "status": "research",
+      "launchedYear": null,
+      "population": 10300000,
+      "lat": -6.315,
+      "lng": 143.9555,
+      "riskLevel": "medium",
+      "description": "Bank of Papua New Guinea researching CBDC for financial inclusion.",
+      "features": [
+        "Research phase",
+        "Financial inclusion",
+        "Rural connectivity"
+      ],
+      "threats": [
+        "Infrastructure challenges",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "kuwait",
+      "name": "Kuwait",
+      "flag": "🇰🇼",
+      "cbdcName": "Digital Dinar (KWD)",
+      "status": "research",
+      "launchedYear": null,
+      "population": 4310000,
+      "lat": 29.3117,
+      "lng": 47.4818,
+      "riskLevel": "medium",
+      "description": "Central Bank researching CBDC for financial modernization.",
+      "features": [
+        "Research phase",
+        "Wholesale focus",
+        "Oil economy"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "oman",
+      "name": "Oman",
+      "flag": "🇴🇲",
+      "cbdcName": "Digital Rial",
+      "status": "research",
+      "launchedYear": null,
+      "population": 4644000,
+      "lat": 21.4735,
+      "lng": 55.9754,
+      "riskLevel": "medium",
+      "description": "Central Bank researching CBDC. Focus on cross-border payments.",
+      "features": [
+        "Research phase",
+        "Cross-border",
+        "Wholesale focus"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "georgia",
+      "name": "Georgia",
+      "flag": "🇬🇪",
+      "cbdcName": "Digital Lari",
+      "status": "pilot",
+      "launchedYear": 2023,
+      "population": 3717000,
+      "lat": 42.3154,
+      "lng": 43.3569,
+      "riskLevel": "medium",
+      "description": "National Bank testing retail CBDC pilot. Blockchain innovation focus.",
+      "features": [
+        "Retail CBDC",
+        "Blockchain focus",
+        "Financial innovation"
+      ],
+      "threats": [
+        "Surveillance capability",
+        "Privacy concerns",
+        "Russian influence"
+      ],
+      "url": null
+    },
+    {
+      "id": "azerbaijan",
+      "name": "Azerbaijan",
+      "flag": "🇦🇿",
+      "cbdcName": "Digital Manat",
+      "status": "research",
+      "launchedYear": null,
+      "population": 10410000,
+      "lat": 40.1431,
+      "lng": 47.5769,
+      "riskLevel": "high",
+      "description": "Central Bank researching CBDC. Authoritarian government concerns.",
+      "features": [
+        "Research phase",
+        "Oil economy",
+        "Financial modernization"
+      ],
+      "threats": [
+        "Authoritarian surveillance",
+        "Political control",
+        "Privacy concerns"
+      ],
+      "url": null
+    },
+    {
+      "id": "armenia",
+      "name": "Armenia",
+      "flag": "🇦🇲",
+      "cbdcName": "Digital Dram",
+      "status": "research",
+      "launchedYear": null,
+      "population": 2777000,
+      "lat": 40.0691,
+      "lng": 45.0382,
+      "riskLevel": "medium",
+      "description": "Central Bank researching CBDC for financial modernization.",
+      "features": [
+        "Research phase",
+        "Financial innovation",
+        "Remittance focus"
+      ],
+      "threats": [
+        "Surveillance potential",
+        "Privacy concerns"
+      ],
+      "url": null
+    }
+  ],
+  "statistics": {
+    "totalCountries": 78,
+    "launched": 5,
+    "pilot": 31,
+    "development": 11,
+    "research": 28,
+    "cancelled": 3,
+    "totalPopulationAffected": 6843247000,
+    "percentageWorldPopulation": 86
+  }
+}

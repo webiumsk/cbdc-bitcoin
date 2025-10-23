@@ -204,6 +204,12 @@
     "whatsapp": "Auf WhatsApp teilen"
   },
   "footer": {
+    "donation": {
+      "title": "Unterstütze mich ⚡",
+      "text": "Hilf Bitcoin-Freiheit zu verbreiten",
+      "copy": "Adresse kopieren",
+      "button": "Lightning senden"
+    },
     "madeWith": "Gemacht mit 🧡 für ",
     "social": {
       "nostr": "Folge uns auf Nostr",
@@ -211,6 +217,17 @@
       "facebook": "Folge uns auf Facebook",
       "youtube": "Folge uns auf YouTube",
       "instagram": "Folge uns auf Instagram"
-    }
+    },
+    "resources": "Ressourcen"
+  },  
+  "map": {
+    "all": "Alle Länder",
+    "launched": "Gestartet",
+    "pilot": "Pilot",
+    "development": "Entwicklung",
+    "research": "Forschung",
+    "cancelled": "Abgebrochen",
+    "noActivity": "Keine Aktivität",
+    "lastUpdated": "Zuletzt aktualisiert"
   }
 }

@@ -192,12 +192,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - [x] Social sharing buttons
 - [x] Video integration
 - [ ] Blog section with articles
-- [ ] Interactive CBDC timeline
+- [x] Interactive CBDC map/timeline
 - [ ] Downloadable infographics
 - [ ] Email newsletter signup
 - [ ] More language versions (FR, IT, PT, PL...)
 - [ ] Dark/Light theme toggle
-- [ ] Bitcoin payment integration for donations
+- [x] Bitcoin payment integration for donations
 
 ---
 

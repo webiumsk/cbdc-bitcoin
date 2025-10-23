@@ -1,7 +1,7 @@
 <template>
   <div class="section hero">
     <h1>{{ t('hero.title') }}</h1>
-    <p class="subtitle">{{ t('hero.subtitle') }}</p>
+    <h2 class="subtitle">{{ t('hero.subtitle') }}</h2>
     
     <div class="vs">⚔️</div>
     

@@ -204,6 +204,12 @@
     "whatsapp": "Share on WhatsApp"
   },
   "footer": {
+    "donation": {
+      "title": "Support me ⚡",
+      "text": "Help spread Bitcoin freedom",
+      "copy": "Copy address",
+      "button": "Send Lightning"
+    },
     "madeWith": "Made with 🧡 for ",
     "social": {
       "nostr": "Follow us on Nostr",
@@ -211,6 +217,29 @@
       "facebook": "Follow us on Facebook",
       "youtube": "Follow us on YouTube",
       "instagram": "Follow us on Instagram"
+    },
+    "resources": "Resources"
+  },
+  "trackerCta": {
+    "title": "Track CBDCs Worldwide",
+    "description": "Monitor the global rollout of Central Bank Digital Currencies in real-time. See which countries are implementing surveillance money and how it threatens your freedom.",
+    "button": "View CBDC Tracker"
+  },
+  "tracker": {
+    "subtitle": "Real-time monitoring of Central Bank Digital Currencies worldwide. Track the global rollout of programmable money and digital surveillance.",
+    "warning": {
+      "title": "Critical Warning",
+      "text": "CBDCs enable unprecedented financial surveillance, programmable money with expiration dates, transaction restrictions, and complete control over your spending. This is not innovation - it's control. Protect your freedom. Choose Bitcoin."
     }
+  },  
+  "map": {
+    "all": "All Countries",
+    "launched": "Launched",
+    "pilot": "Pilot",
+    "development": "Development",
+    "research": "Research",
+    "cancelled": "Cancelled",
+    "noActivity": "No Activity",
+    "lastUpdated": "Last updated"
   }
 }

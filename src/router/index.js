@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
+//import CBDCTracker from "../views/CBDCTracker.vue";
 import i18n from "../i18n";
 
 const router = createRouter({

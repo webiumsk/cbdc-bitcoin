@@ -204,6 +204,12 @@
     "whatsapp": "Zdieľať na WhatsApp"
   },
   "footer": {
+    "donation": {
+      "title": "Podpor ma ⚡",
+      "text": "Pomôž šíriť slobodu Bitcoinu",
+      "copy": "Kopírovať adresu",
+      "button": "Poslať Lightning"
+    },
     "madeWith": "Vyrobené s 🧡 pre ",
     "social": {
       "nostr": "Sleduj nás na Nostr",
@@ -211,6 +217,17 @@
       "facebook": "Sleduj nás na Facebooku",
       "youtube": "Sleduj nás na YouTube",
       "instagram": "Sleduj nás na Instagrame"
-    }
+    },
+    "resources": "Zdroje"
+  },
+  "map": {
+    "all": "Všetky krajiny",
+    "launched": "Spustené",
+    "pilot": "Pilot",
+    "development": "Vývoj",
+    "research": "Výskum",
+    "cancelled": "Zrušené",
+    "noActivity": "Žiadna aktivita",
+    "lastUpdated": "Naposledy aktualizované"
   }
 }

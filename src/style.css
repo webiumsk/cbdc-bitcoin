@@ -1,49 +1,27 @@
+/* === GLOBAL RESET === */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* === BASE === */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background: #0a0a0a;
   color: #fff;
   overflow-x: hidden;
 }
 
 a {
-  color: orange;
+  color: #f39c12;
 }
 
-/* LANGUAGE SWITCHER */
-.lang-switcher {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  background: rgba(243, 156, 18, 0.9);
-  border-radius: 25px;
-  padding: 10px 20px;
-  backdrop-filter: blur(10px);
+p {
+  line-height: 1.6;
 }
 
-.lang-link {
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 5px 15px;
-  border-radius: 15px;
-  transition: all 0.3s;
-  display: inline-block;
-}
-
-.lang-link:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
+/* === SECTION LAYOUT === */
 .section {
   min-height: 100vh;
   display: flex;
@@ -54,9 +32,9 @@ a {
   position: relative;
 }
 
-/* HERO SECTION */
+/* === HERO === */
 .hero {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
   text-align: center;
 }
 
@@ -116,9 +94,9 @@ a {
   color: #bdc3c7;
 }
 
-/* TIMELINE */
+/* === TIMELINE === */
 .timeline {
-  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  background: linear-gradient(135deg, #16213e, #0f3460);
 }
 
 .timeline h2 {
@@ -182,15 +160,15 @@ a {
   border: 4px solid #0a0a0a;
 }
 
-/* COMPARISON TABLE */
+/* === COMPARISON === */
 .comparison {
-  background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
+  background: linear-gradient(135deg, #0f3460, #1a1a2e);
 }
 
-.comparison h2 {
+.comparison h2, .cbdc-map-container h2 {
   font-size: 3rem;
   margin-bottom: 60px;
-  color: #f39c12;
+  color: #27ae60;
   text-align: center;
 }
 
@@ -236,7 +214,7 @@ a {
 
 .comparison-card ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 .comparison-card li {
@@ -258,9 +236,9 @@ a {
   left: 0;
 }
 
-/* THREATS */
+/* === THREATS === */
 .threats {
-  background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%);
+  background: linear-gradient(135deg, #1a1a2e, #0a0a0a);
 }
 
 .threats h2 {
@@ -311,9 +289,9 @@ a {
   line-height: 1.6;
 }
 
-/* BITCOIN SOLUTION */
+/* === SOLUTION === */
 .solution {
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
 }
 
 .solution h2 {
@@ -357,9 +335,9 @@ a {
   line-height: 1.6;
 }
 
-/* ACTION PLAN */
+/* === ACTION === */
 .action {
-  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  background: linear-gradient(135deg, #16213e, #0f3460);
 }
 
 .action h2 {
@@ -408,9 +386,9 @@ a {
   line-height: 1.6;
 }
 
-/* FINAL CTA */
+/* === CTA === */
 .cta {
-  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
   text-align: center;
 }
 
@@ -453,12 +431,7 @@ a {
   transform: scale(1.1);
 }
 
-.footer {
-  background: #000;
-  text-align: center;
-  padding: 40px 0;
-}
-
+/* === MOBILE === */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -497,14 +470,16 @@ a {
     font-size: 2.5rem;
   }
 
-  .lang-switcher {
-    top: 10px;
-    right: 10px;
-    padding: 8px 15px;
+  .cta p {
+    font-size: 1.3rem;
   }
 
-  .lang-link {
-    padding: 3px 10px;
-    font-size: 0.9rem;
+  .cta .quote {
+    font-size: 1.8rem;
+  }
+
+  .cta-button {
+    padding: 15px 35px;
+    font-size: 1.2rem;
   }
 }
