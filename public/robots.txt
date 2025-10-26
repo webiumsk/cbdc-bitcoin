@@ -1,0 +1,13 @@
+# robots.txt for CBDC Tracker
+User-agent: *
+Allow: /
+
+Sitemap: https://cbdc.icu/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
