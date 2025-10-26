@@ -208,7 +208,8 @@
       "title": "Apoya me ⚡",
       "text": "Ayuda a difundir la libertad de Bitcoin",
       "copy": "Copiar dirección",
-      "button": "Enviar Lightning"
+      "button": "Enviar Lightning",
+      "wallet": "Abrir en Wallet"
     },
     "madeWith": "Hecho con 🧡 para ",
     "social": {

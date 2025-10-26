@@ -96,12 +96,12 @@
       {
         "number": "02",
         "title": "Programovateľné peniaze",
-        "description": "Peniaze, ktoré expirujú. Kategórie, ktoré nemôžeš kúpiť. Geografické obmedzenia. Sociálny kredit."
+        "description": "Peniaze, ktoré expirujú. Kategórie produktov, ktoré nemôžeš kúpiť. Geografické obmedzenia. Sociálny kredit."
       },
       {
         "number": "03",
         "title": "Politická kontrola",
-        "description": "Protestuješ? Konto zamrznuté. Kritizuješ? Platby blokované. Dissident? Finančne mŕtvy."
+        "description": "Protestuješ? Konto zamrazené. Kritizuješ? Platby blokované. Dissident? Finančne mŕtvy."
       },
       {
         "number": "04",
@@ -208,7 +208,8 @@
       "title": "Podpor ma ⚡",
       "text": "Pomôž šíriť slobodu Bitcoinu",
       "copy": "Kopírovať adresu",
-      "button": "Poslať Lightning"
+      "button": "Poslať Lightning",
+      "wallet": "Otvoriť v peňaženke"
     },
     "madeWith": "Vyrobené s 🧡 pre ",
     "social": {

@@ -52,7 +52,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
 <style scoped>
 /* Switcher */
 .lang-switcher {
-  position: fixed; top: 20px; right: 20px; z-index: 1000;
+  position: fixed; top: 20px; right: 20px; z-index: 10000;
   background: rgba(243, 156, 18, 0.95); border-radius: 10px; padding: 10px 15px;
   backdrop-filter: blur(10px); cursor: pointer; user-select: none; min-width: 100px;
 }

@@ -208,7 +208,8 @@
       "title": "Support me ⚡",
       "text": "Help spread Bitcoin freedom",
       "copy": "Copy address",
-      "button": "Send Lightning"
+      "button": "Send Lightning",
+      "wallet": "Open in Wallet"
     },
     "madeWith": "Made with 🧡 for ",
     "social": {

@@ -15,34 +15,29 @@
               <a href="https://cbdctracker.hrf.org/" target="_blank" rel="noopener">
                 Human Rights Foundation CBDC Tracker
               </a>
-            </li>
+            </li>            
             <li>
-              <a href="https://www.bis.org/topics/fintech/cbdc.htm" target="_blank" rel="noopener">
-                BIS Central Bank Digital Currencies
-              </a>
-            </li>
-            <li>
-              <a href="https://www.imf.org/en/Topics/fintech/central-bank-digital-currency" target="_blank" rel="noopener">
+              <a href="https://www.imf.org/en/Topics/digital-payments-and-finance" target="_blank" rel="noopener nofollow">
                 IMF on CBDCs
               </a>
             </li>
             <li>
-              <a href="https://www.ecb.europa.eu/paym/digital_euro/html/index.en.html" target="_blank" rel="noopener">
+              <a href="https://www.ecb.europa.eu/paym/digital_euro/html/index.en.html" target="_blank" rel="noopener nofollow">
                 European Central Bank - Digital Euro
               </a>
             </li>
             <li>
-              <a href="https://www.federalreserve.gov/central-bank-digital-currency.htm" target="_blank" rel="noopener">
+              <a href="https://www.federalreserve.gov/central-bank-digital-currency.htm" target="_blank" rel="noopener nofollow">
                 Federal Reserve - CBDC Research
               </a>
             </li>
             <li>
-              <a href="https://www.cato.org/topics/monetary-policy/central-bank-digital-currency" target="_blank" rel="noopener">
+              <a href="https://www.cato.org/visual-feature/risks-of-cbdcs" target="_blank" rel="noopener">
                 Cato Institute - CBDC Analysis
               </a>
             </li>
             <li>
-              <a href="https://reason.com/tag/cbdc/" target="_blank" rel="noopener">
+              <a href="https://reason.com/search/cbdc/" target="_blank" rel="noopener">
                 Reason Foundation - CBDC Articles
               </a>
             </li>
@@ -149,35 +144,38 @@
         <!-- Right Column: Lightning Donation -->
         <div class="footer-right">
           <div class="donation-box">
+            <h4>{{ t('footer.donation.title') }}</h4>
             <img 
-              src="/btc-donation-qr.webp" 
+              src="/btc-donation.webp" 
               alt="Lightning QR Code" 
               class="qr-image"
-            >
-            <h4>{{ t('footer.donation.title') }}</h4>
+            >           
             
             <div class="lightning-address">
-              <input 
+              <!-- input 
                 ref="addressInput"
                 type="text" 
                 :value="lightningAddress" 
                 readonly 
                 class="address-input"
+                aria-label="LN Donation Address"
                 @click="selectAddress"
+              -->
+              <a 
+                :href="`lightning:${lightningAddress}`" 
+                :title="t('footer.donation.wallet')"
+                class="donation-btn"
+                target="_blank"
+                rel="noopener"
               >
+                {{ t('footer.donation.button') }}
+              </a>
               <button @click="copyAddress" class="copy-btn" :title="t('footer.donation.copy')">
                 {{ copied ? '✓' : '📋' }}
               </button>
             </div>
             
-            <a 
-              :href="`lightning:${lightningAddress}`" 
-              class="donation-btn"
-              target="_blank"
-              rel="noopener"
-            >
-              {{ t('footer.donation.button') }}
-            </a>
+            
           </div>
         </div>
       </div>
@@ -191,7 +189,7 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-const lightningAddress = ref('sirius@dvadsatjeden.org')
+const lightningAddress = ref('cbdc@dvadsatjeden.org')
 const copied = ref(false)
 const addressInput = ref(null)
 
@@ -346,7 +344,7 @@ const copyAddress = async () => {
   cursor: pointer; transition: all 0.3s;
 }
 .copy-btn { padding: 8px 12px; font-size: 1rem; min-width: 45px; }
-.donation-btn { padding: 10px 20px; font-size: 0.95rem; font-weight: 600; text-decoration: none; }
+.donation-btn { padding: 10px 20px; font-size: 0.95rem; font-weight: 600; text-decoration: none; width: 75%;}
 .copy-btn:hover, .donation-btn:hover { background: rgba(243, 156, 18, 0.3); }
 .copy-btn:hover { transform: translateY(-1px); }
 .donation-btn:hover { transform: translateY(-2px); }

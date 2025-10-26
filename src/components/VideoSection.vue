@@ -3,21 +3,17 @@
     <h2>🎥 {{ t('video.title') }}</h2>
     <p class="video-description">{{ t('video.description') }}</p>
     <div class="video-container">
-      <iframe
-        width="100%"
-        height="100%"
-        src="https://www.youtube.com/embed/sUOZNo4Gbfw"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+      <LazyYoutube 
+        video-id="sUOZNo4Gbfw"
+        :no-cookie="true"
+      />
     </div>
   </div>
 </template>
 
 <script setup>
 import { useI18n } from 'vue-i18n'
+import LazyYoutube from './LazyYoutube.vue'
 const { t } = useI18n()
 </script>
 
@@ -30,7 +26,7 @@ const { t } = useI18n()
 /* Video Container - 16:9 Aspect Ratio */
 .video-container {
   position: relative; width: 100%; max-width: 900px;
-  padding-bottom: 50.625%; /* 16:9 */ height: 0; overflow: hidden;
+  overflow: hidden;
   border-radius: 15px; border: 3px solid #f39c12;
   box-shadow: 0 10px 40px rgba(243, 156, 18, 0.3);
 }

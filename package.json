@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "generate:sitemap": "node sitemap-generator.js",
+    "prebuild": "npm run generate:sitemap",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -11,6 +13,7 @@
   "dependencies": {
     "@vueuse/head": "^2.0.0",
     "leaflet": "^1.9.4",
+    "lite-youtube-embed": "^0.3.3",
     "vue": "^3.5.22",
     "vue-i18n": "^9.14.5",
     "vue-router": "^4.6.3"
