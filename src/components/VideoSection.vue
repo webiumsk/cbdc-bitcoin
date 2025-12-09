@@ -25,10 +25,13 @@ const { t } = useI18n()
 
 /* Video Container - 16:9 Aspect Ratio */
 .video-container {
-  position: relative; width: 100%; max-width: 900px;
+  position: relative; 
+  width: 100%; 
+  max-width: 900px;
   overflow: hidden;
-  border-radius: 15px; border: 3px solid #f39c12;
-  box-shadow: 0 10px 40px rgba(243, 156, 18, 0.3);
+  border-radius: 15px; 
+  border: 2px solid #f39c12;
+  /*box-shadow: 0 10px 40px rgba(243, 156, 18, 0.3);*/
 }
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px; }
 

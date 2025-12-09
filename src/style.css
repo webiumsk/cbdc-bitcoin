@@ -263,7 +263,7 @@ p {
 
 .threat-card {
   background: rgba(231, 76, 60, 0.1);
-  border: 2px solid #e74c3c;
+  border: 1px solid #e74c3c;
   padding: 30px;
   border-radius: 15px;
   transition: all 0.3s;
@@ -316,7 +316,7 @@ p {
 
 .solution-card {
   background: rgba(243, 156, 18, 0.1);
-  border: 2px solid #f39c12;
+  border: 1px solid #f39c12;
   padding: 30px;
   border-radius: 15px;
   text-align: center;

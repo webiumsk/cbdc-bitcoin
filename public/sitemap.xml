@@ -4,7 +4,7 @@
 
   <url>
     <loc>https://cbdc.icu/</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/"/>
@@ -16,7 +16,7 @@
 
   <url>
     <loc>https://cbdc.icu/sk/</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/"/>
@@ -28,7 +28,7 @@
 
   <url>
     <loc>https://cbdc.icu/es/</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/"/>
@@ -40,7 +40,7 @@
 
   <url>
     <loc>https://cbdc.icu/hu/</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2025-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/"/>
@@ -48,102 +48,6 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/"/>
     <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/about</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/about"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/about"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/about"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/sk/about</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/about"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/about"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/about"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/es/about</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/about"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/about"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/about"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/hu/about</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/about"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/about"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/about"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/about"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/resources</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/resources"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/resources"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/resources"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/resources"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/resources"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/sk/resources</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/resources"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/resources"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/resources"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/resources"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/resources"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/es/resources</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/resources"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/resources"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/resources"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/resources"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/resources"/>
-  </url>
-
-  <url>
-    <loc>https://cbdc.icu/hu/resources</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cbdc.icu/resources"/>
-    <xhtml:link rel="alternate" hreflang="sk" href="https://cbdc.icu/sk/resources"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cbdc.icu/es/resources"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://cbdc.icu/hu/resources"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cbdc.icu/resources"/>
   </url>
 
 </urlset>

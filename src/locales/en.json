@@ -191,7 +191,7 @@
     "bitcoinLine": "Bitcoin says: \"Verify it yourself.\"",
     "actionText": "Take the first step today. While you still can.",
     "button": "Start Now ₿",
-    "footer": "Share • Print • Distribute | Open-source • 2025"    
+    "footer": "Share • Print • Distribute | Open-source • 2025"
   },
   "share": {
     "title": "Share",
@@ -232,7 +232,7 @@
       "title": "Critical Warning",
       "text": "CBDCs enable unprecedented financial surveillance, programmable money with expiration dates, transaction restrictions, and complete control over your spending. This is not innovation - it's control. Protect your freedom. Choose Bitcoin."
     }
-  },  
+  },
   "map": {
     "all": "All Countries",
     "launched": "Launched",
@@ -242,5 +242,16 @@
     "cancelled": "Cancelled",
     "noActivity": "No Activity",
     "lastUpdated": "Last updated"
+  },
+  "news": {
+    "title": "Latest News",
+    "loading": "Loading news...",
+    "readMore": "Read more",
+    "sourceUnknown": "Unknown source",
+    "loadMore": "Load more",
+    "localNews": "Local News",
+    "globalNews": "Global News",
+    "noNewsFound": "No local news about CBDC found.",
+    "switchToGlobal": "Switch to Global News"
   }
 }

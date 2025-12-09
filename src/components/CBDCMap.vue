@@ -62,7 +62,7 @@
           :class="{ active: filterStatus === 'cancelled' }"
           @click="filterStatus = 'cancelled'"
         >
-          <div class="stat-icon">🔵</div>
+          <div class="stat-icon">⚫</div>
           <div class="stat-number">{{ stats.cancelled }}</div>
           <div class="stat-label">{{ t('map.cancelled') }}</div>
         </div>
@@ -121,7 +121,11 @@
     </div>
 
     <!-- Last Updated -->
-    <div v-if="!loading" class="last-updated">{{ t('map.lastUpdated') }}: {{ lastUpdated }}</div>
+    <!-- Last Updated -->
+    <div v-if="!loading" class="last-updated">
+      <p>{{ t('map.lastUpdated') }}: {{ lastUpdated }}</p>
+      <p class="source-link">Data Source: <a href="https://cbdctracker.org/" target="_blank" rel="noopener">CBDC Tracker</a> & <a href="https://www.atlanticcouncil.org/cbdctracker/" target="_blank" rel="noopener">Atlantic Council</a></p>
+    </div>
   </div>
 </template>
 
@@ -180,7 +184,17 @@ const loadData = async () => {
     const data = await response.json()
     
     countries.value = data.countries
-    stats.value = data.statistics
+    countries.value = data.countries
+    
+    // Dynamically calculate stats from countries array
+    const newStats = { launched: 0, pilot: 0, development: 0, research: 0, cancelled: 0 }
+    countries.value.forEach(c => {
+      if (newStats[c.status] !== undefined) {
+        newStats[c.status]++
+      }
+    })
+    stats.value = newStats
+    
     lastUpdated.value = data.lastUpdated
     loading.value = false
     
@@ -342,7 +356,7 @@ watch(filterStatus, () => {
   border-radius: 10px; 
   padding: 20px; 
   text-align: center; 
-  border: 2px solid; 
+  border: 1px solid; 
   transition: all 0.3s; 
   cursor: pointer;
   user-select: none;
@@ -575,6 +589,19 @@ watch(filterStatus, () => {
   font-size: 0.9rem; 
   margin-top: 30px; 
   padding: 0 20px;
+  padding: 0 20px;
+}
+.source-link {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 5px;
+}
+.source-link a {
+  color: #888;
+  text-decoration: underline;
+}
+.source-link a:hover {
+  color: #f39c12;
 }
 
 /* Mobile */

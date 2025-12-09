@@ -6,6 +6,7 @@
     <Comparison />
     <CBDCMap />
     <Threats />
+    <NewsFeed />
     <Solution />
     <ActionPlan />
     <CTA />
@@ -19,6 +20,7 @@ import Timeline from '../components/Timeline.vue'
 import VideoSection from '../components/VideoSection.vue'
 import Comparison from '../components/Comparison.vue'
 import Threats from '../components/Threats.vue'
+import NewsFeed from '../components/NewsFeed.vue'
 import CBDCMap from '../components/CBDCMap.vue'
 import Solution from '../components/Solution.vue'
 import ActionPlan from '../components/ActionPlan.vue'

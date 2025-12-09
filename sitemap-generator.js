@@ -83,7 +83,7 @@ function generateSitemap() {
   }
 
   // Static pages (optional)
-  const staticPages = [
+  /*const staticPages = [
     { path: "/about", priority: "0.6", changefreq: "monthly" },
     { path: "/resources", priority: "0.7", changefreq: "weekly" },
   ];
@@ -100,7 +100,7 @@ function generateSitemap() {
       xml += generateLanguageAlternates(page.path);
       xml += "  </url>\n\n";
     });
-  });
+  });*/
 
   xml += "</urlset>";
   return xml;
@@ -119,14 +119,9 @@ try {
 
   fs.writeFileSync(outputPath, sitemap);
 
-  const countriesCount = cbdcData.countries?.length || 0;
-  const totalUrls = languages.length * (1 + countriesCount + 2); // homepage + countries + 2 static pages
-
   console.log("✅ Sitemap generated successfully!");
-  console.log(`📄 Total URLs: ${totalUrls}`);
   console.log(`🌍 Languages: ${languages.join(", ")}`);
   console.log(`🏠 Default language: ${defaultLang}`);
-  console.log(`🗺️  Countries: ${countriesCount}`);
   console.log(`📍 Output: ${outputPath}`);
   console.log(`📅 Last modified: ${currentDate}`);
 } catch (err) {

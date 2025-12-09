@@ -8,25 +8,25 @@
   },
   "backToTop": "Späť hore",
   "hero": {
-  "title": "Digitálne Euro vs Bitcoin",
-  "subtitle": "Voľba medzi kontrolou a slobodou",
-  "cbdc": {
-    "title": "CBDC",
-    "items": [
-      "Centrálna kontrola",
-      "Sledovanie",
-      "Programovateľná tyrania"
-    ]
+    "title": "Digitálne Euro vs Bitcoin",
+    "subtitle": "Voľba medzi kontrolou a slobodou",
+    "cbdc": {
+      "title": "CBDC",
+      "items": [
+        "Centrálna kontrola",
+        "Sledovanie",
+        "Programovateľná tyrania"
+      ]
+    },
+    "bitcoin": {
+      "title": "BITCOIN",
+      "items": [
+        "Decentralizácia",
+        "Súkromie",
+        "Finančná sloboda"
+      ]
+    }
   },
-  "bitcoin": {
-    "title": "BITCOIN",
-    "items": [
-      "Decentralizácia",
-      "Súkromie",
-      "Finančná sloboda"
-    ]
-  }
-},
   "timeline": {
     "title": "ČO SA DEJE",
     "items": [
@@ -230,5 +230,16 @@
     "cancelled": "Zrušené",
     "noActivity": "Žiadna aktivita",
     "lastUpdated": "Naposledy aktualizované"
+  },
+  "news": {
+    "title": "Najnovšie správy",
+    "loading": "Načítavam správy...",
+    "readMore": "Čítať viac",
+    "sourceUnknown": "Neznámy zdroj",
+    "loadMore": "Načítať ďalšie",
+    "localNews": "Lokálne správy",
+    "globalNews": "Globálne správy",
+    "noNewsFound": "Nenašli sa žiadne lokálne správy o CBDC.",
+    "switchToGlobal": "Prepnúť na globálne správy"
   }
 }

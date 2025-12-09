@@ -220,7 +220,7 @@
       "instagram": "Folge uns auf Instagram"
     },
     "resources": "Ressourcen"
-  },  
+  },
   "map": {
     "all": "Alle Länder",
     "launched": "Gestartet",
@@ -230,5 +230,16 @@
     "cancelled": "Abgebrochen",
     "noActivity": "Keine Aktivität",
     "lastUpdated": "Zuletzt aktualisiert"
+  },
+  "news": {
+    "title": "Aktuelle Nachrichten",
+    "loading": "Nachrichten werden geladen...",
+    "readMore": "Mehr lesen",
+    "sourceUnknown": "Unbekannte Quelle",
+    "loadMore": "Mehr laden",
+    "localNews": "Lokale Nachrichten",
+    "globalNews": "Globale Nachrichten",
+    "noNewsFound": "Keine lokalen Nachrichten über CBDC gefunden.",
+    "switchToGlobal": "Zu globalen Nachrichten wechseln"
   }
 }

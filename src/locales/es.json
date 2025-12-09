@@ -220,7 +220,7 @@
       "instagram": "Síguenos en Instagram"
     },
     "resources": "Recursos"
-  },  
+  },
   "map": {
     "all": "Todos los países",
     "launched": "Lanzado",
@@ -230,5 +230,16 @@
     "cancelled": "Cancelado",
     "noActivity": "Sin actividad",
     "lastUpdated": "Última actualización"
+  },
+  "news": {
+    "title": "Últimas noticias",
+    "loading": "Cargando noticias...",
+    "readMore": "Leer más",
+    "sourceUnknown": "Fuente desconocida",
+    "loadMore": "Cargar más",
+    "localNews": "Noticias locales",
+    "globalNews": "Noticias globales",
+    "noNewsFound": "No se encontraron noticias locales sobre CBDC.",
+    "switchToGlobal": "Cambiar a noticias globales"
   }
 }

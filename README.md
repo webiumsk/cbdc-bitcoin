@@ -44,6 +44,7 @@ This website:
 - ⚡ **Fast & Optimized** - built with Vue 3 + Vite
 - 🎨 **Modern Design** - engaging visual experience
 - 📊 **Timeline** - showing what's coming (2023-2030+)
+- 📰 **Live News Feed** - latest CBDC updates (Local & Global)
 - 🎥 **Video Integration** - educational content
 - 🔗 **Social Sharing** - Facebook, X, Instagram, Nostr, Telegram, WhatsApp
 - 🎯 **SEO Optimized** - proper meta tags for all platforms
@@ -91,6 +92,7 @@ cbdc-bitcoin/
 │   │   ├── Timeline.vue
 │   │   ├── Comparison.vue
 │   │   ├── Threats.vue
+│   │   ├── NewsFeed.vue
 │   │   ├── Solution.vue
 │   │   ├── ActionPlan.vue
 │   │   ├── VideoSection.vue
@@ -192,7 +194,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - [x] Social sharing buttons
 - [x] Video integration
 - [ ] Blog section with articles
-- [x] Interactive CBDC map/timeline
+- [x] Interactive CBDC map/timeline (Dynamic Data)
+- [x] Live CBDC News Feed
 - [ ] Downloadable infographics
 - [ ] Email newsletter signup
 - [ ] More language versions (FR, IT, PT, PL...)
