@@ -229,7 +229,9 @@
     "research": "Investigación",
     "cancelled": "Cancelado",
     "noActivity": "Sin actividad",
-    "lastUpdated": "Última actualización"
+    "lastUpdated": "Última actualización",
+    "changelogTitle": "Cambios en los datos del mapa",
+    "changelogEmpty": "Aún no hay cambios registrados."
   },
   "news": {
     "title": "Últimas noticias",

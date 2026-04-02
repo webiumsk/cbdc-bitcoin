@@ -229,7 +229,9 @@
     "research": "Výskum",
     "cancelled": "Zrušené",
     "noActivity": "Žiadna aktivita",
-    "lastUpdated": "Naposledy aktualizované"
+    "lastUpdated": "Naposledy aktualizované",
+    "changelogTitle": "Zmeny v dátach mapy",
+    "changelogEmpty": "Zatiaľ nie sú zaznamenané žiadne zmeny."
   },
   "news": {
     "title": "Najnovšie správy",

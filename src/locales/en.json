@@ -241,7 +241,9 @@
     "research": "Research",
     "cancelled": "Cancelled",
     "noActivity": "No Activity",
-    "lastUpdated": "Last updated"
+    "lastUpdated": "Last updated",
+    "changelogTitle": "Map data changes",
+    "changelogEmpty": "No recorded changes yet."
   },
   "news": {
     "title": "Latest News",

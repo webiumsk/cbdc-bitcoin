@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "date": "2026-04-02",
+      "sk": [
+        "Čína (e-CNY): status „spustené“ — ide o živý celonárodný retailový program; v popise je poznámka, že niektoré prehľady ho stále označujú ako pilot.",
+        "Irán (Crypto Rial): status upravený na „pilot“ oproti kategórii plného retailového spustenia v zmysle vybraných medzinárodných trackerov.",
+        "Dataset zlúčený cez vrstvu data/incoming (atlantic-council-alignment) + build skript."
+      ],
+      "en": [
+        "China (e-CNY): kept as launched — live national retail program; description notes some trackers still use the “pilot” label.",
+        "Iran (Crypto Rial): status set to pilot relative to “full retail launch” wording used by some international trackers.",
+        "Dataset merged via data/incoming layer (atlantic-council-alignment) and the build script."
+      ],
+      "es": [
+        "China (e-CNY): permanece como lanzado — programa retail nacional en vivo; la descripción indica que algunos trackers aún dicen “piloto”.",
+        "Irán (Crypto Rial): estado en piloto respecto al lanzamiento retail pleno según algunos trackers internacionales.",
+        "Dataset fusionado vía capa data/incoming y el script de build."
+      ],
+      "de": [
+        "China (e-CNY): bleibt „gestartet“ — live nationaler Retail‑CBDC; Hinweis in der Beschreibung, dass manche Tracker noch „Pilot“ sagen.",
+        "Iran (Crypto Rial): Status Pilot im Vergleich zum „vollen Retail‑Start“ einiger internationaler Tracker.",
+        "Datensatz per data/incoming‑Schicht und Build‑Skript zusammengeführt."
+      ]
+    }
+  ]
+}

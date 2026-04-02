@@ -1,0 +1,14 @@
+{
+  "_comment": "Iran not among AC's three named retail launches (Bahamas, Jamaica, Nigeria). China: e-CNY is a live national retail program — launched; some trackers still say pilot (labeling only).",
+  "countries": [
+    {
+      "id": "china",
+      "status": "launched",
+      "description": "Largest live retail CBDC program worldwide: hundreds of millions of users and very large transaction volumes (PBOC figures). Some trackers still call it a pilot; domestically it operates as a production retail system tied to surveillance and the social credit system."
+    },
+    {
+      "id": "iran",
+      "status": "pilot"
+    }
+  ]
+}

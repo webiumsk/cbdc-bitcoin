@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "23-10-2025",
+  "lastUpdated": "02-04-2026",
   "countries": [
     {
       "id": "bahamas",
@@ -116,7 +116,7 @@
       "lat": 35.8617,
       "lng": 104.1954,
       "riskLevel": "extreme",
-      "description": "World's largest CBDC pilot with 260M+ users. Over $1 trillion in transactions by 2024. Integrated with social credit system.",
+      "description": "Largest live retail CBDC program worldwide: hundreds of millions of users and very large transaction volumes (PBOC figures). Some trackers still call it a pilot; domestically it operates as a production retail system tied to surveillance and the social credit system.",
       "features": [
         "Retail & Wholesale",
         "Offline payments",
@@ -541,7 +541,7 @@
       "name": "Iran",
       "flag": "🇮🇷",
       "cbdcName": "Crypto Rial",
-      "status": "launched",
+      "status": "pilot",
       "launchedYear": 2023,
       "population": 89200000,
       "lat": 32.4279,
@@ -1906,15 +1906,5 @@
       ],
       "url": null
     }
-  ],
-  "statistics": {
-    "totalCountries": 78,
-    "launched": 5,
-    "pilot": 31,
-    "development": 11,
-    "research": 28,
-    "cancelled": 3,
-    "totalPopulationAffected": 6843247000,
-    "percentageWorldPopulation": 86
-  }
+  ]
 }

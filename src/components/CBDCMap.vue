@@ -72,6 +72,27 @@
     <!-- Map Container -->
     <div v-if="!loading" id="map" ref="mapContainer"></div>
 
+    <!-- Changelog (pod mapou) -->
+    <div v-if="!loading" class="map-changelog-wrap">
+      <h3 class="changelog-heading">{{ t('map.changelogTitle') }}</h3>
+      <p v-if="changelogEntries.length === 0" class="changelog-empty">{{ t('map.changelogEmpty') }}</p>
+      <div v-else class="map-changelog">
+        <details
+          v-for="entry in changelogEntries"
+          :key="entry.date"
+          class="changelog-details"
+        >
+          <summary class="changelog-summary">
+            <span class="changelog-date">{{ formatChangelogDate(entry.date) }}</span>
+            <span class="changelog-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="changelog-list">
+            <li v-for="(line, idx) in changelogLines(entry)" :key="idx">{{ line }}</li>
+          </ul>
+        </details>
+      </div>
+    </div>
+
     <!-- Info Panel -->
     <div v-if="selectedCountry" class="info-panel">
       <button class="close-btn" @click="selectedCountry = null">×</button>
@@ -135,9 +156,10 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const loading = ref(true)
+const changelogEntries = ref([])
 const mapContainer = ref(null)
 const selectedCountry = ref(null)
 const countries = ref([])
@@ -178,12 +200,43 @@ const filteredCountries = computed(() => {
   return countries.value.filter(c => c.status === filterStatus.value)
 })
 
+const changelogLines = (entry) => {
+  const loc = locale.value
+  const lines = entry[loc] || entry.en || entry.sk || entry.es || entry.de
+  return Array.isArray(lines) ? lines : []
+}
+
+const formatChangelogDate = (iso) => {
+  try {
+    const d = new Date(`${iso}T12:00:00Z`)
+    return new Intl.DateTimeFormat(locale.value || 'sk', { dateStyle: 'medium' }).format(d)
+  } catch {
+    return iso
+  }
+}
+
+const loadChangelog = async () => {
+  try {
+    const v = import.meta.env.VITE_DATA_VERSION
+    const url = v ? `/map-changelog.json?v=${encodeURIComponent(v)}` : '/map-changelog.json'
+    const response = await fetch(url)
+    if (!response.ok) return
+    const data = await response.json()
+    const list = Array.isArray(data.entries) ? [...data.entries] : []
+    list.sort((a, b) => String(b.date).localeCompare(String(a.date)))
+    changelogEntries.value = list
+  } catch {
+    changelogEntries.value = []
+  }
+}
+
 const loadData = async () => {
   try {
-    const response = await fetch('/cbdc-data.json')
+    const v = import.meta.env.VITE_DATA_VERSION
+    const url = v ? `/cbdc-data.json?v=${encodeURIComponent(v)}` : '/cbdc-data.json'
+    const response = await fetch(url)
     const data = await response.json()
-    
-    countries.value = data.countries
+
     countries.value = data.countries
     
     // Dynamically calculate stats from countries array
@@ -284,7 +337,10 @@ const getMarkerSize = (population) => {
   return 8
 }
 
-onMounted(() => loadData())
+onMounted(() => {
+  loadData()
+  loadChangelog()
+})
 onUnmounted(() => {
   if (map) {
     map.remove()
@@ -407,6 +463,80 @@ watch(filterStatus, () => {
   border-radius: 0; 
   box-shadow: none;
   position: relative;
+}
+
+/* Changelog accordion (pod mapou) */
+.map-changelog-wrap {
+  max-width: 1200px;
+  margin: 32px auto 0;
+  padding: 0 20px;
+}
+.changelog-heading {
+  font-size: 1.35rem;
+  color: #f39c12;
+  margin: 0 0 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.changelog-empty {
+  text-align: center;
+  color: #8a9ba8;
+  font-size: 0.95rem;
+  margin: 0;
+}
+.map-changelog {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.changelog-details {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(243, 156, 18, 0.35);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.changelog-summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  color: #ecf0f1;
+  font-weight: 600;
+  user-select: none;
+}
+.changelog-summary::-webkit-details-marker {
+  display: none;
+}
+.changelog-chevron {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid #f39c12;
+  border-bottom: 2px solid #f39c12;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+.changelog-details[open] .changelog-chevron {
+  transform: rotate(45deg);
+}
+.changelog-date {
+  color: #f39c12;
+}
+.changelog-list {
+  margin: 0;
+  padding: 0 18px 16px 36px;
+  color: #bdc3c7;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.changelog-list li {
+  margin-bottom: 8px;
+}
+.changelog-list li:last-child {
+  margin-bottom: 0;
 }
 
 /* Scroll Hint */

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "atlantic-council-cbdc",
+    "label": "Atlantic Council CBDC Tracker",
+    "url": "https://www.atlanticcouncil.org/cbdctracker/",
+    "category": "cbdc_tracker",
+    "role": "headline_metrics"
+  },
+  {
+    "id": "hrf-cbdc-tracker",
+    "label": "Human Rights Foundation CBDC Tracker",
+    "url": "https://cbdctracker.hrf.org/",
+    "category": "cbdc_tracker",
+    "role": "context"
+  },
+  {
+    "id": "imf-cbdc",
+    "label": "IMF on CBDCs",
+    "url": "https://www.imf.org/en/Topics/digital-payments-and-finance",
+    "category": "institution",
+    "role": "context"
+  },
+  {
+    "id": "ecb-digital-euro",
+    "label": "European Central Bank - Digital Euro",
+    "url": "https://www.ecb.europa.eu/paym/digital_euro/html/index.en.html",
+    "category": "institution",
+    "role": "context"
+  },
+  {
+    "id": "fed-cbdc",
+    "label": "Federal Reserve - CBDC Research",
+    "url": "https://www.federalreserve.gov/central-bank-digital-currency.htm",
+    "category": "institution",
+    "role": "context"
+  },
+  {
+    "id": "cato-cbdc",
+    "label": "Cato Institute - CBDC Analysis",
+    "url": "https://www.cato.org/visual-feature/risks-of-cbdcs",
+    "category": "policy",
+    "role": "context"
+  },
+  {
+    "id": "reason-cbdc",
+    "label": "Reason Foundation - CBDC Articles",
+    "url": "https://reason.com/search/cbdc/",
+    "category": "policy",
+    "role": "context"
+  },
+  {
+    "id": "bitcoin-org",
+    "label": "Bitcoin.org",
+    "url": "https://bitcoin.org/",
+    "category": "bitcoin_education",
+    "role": "context"
+  },
+  {
+    "id": "lopp-resources",
+    "label": "Bitcoin Resources by Jameson Lopp",
+    "url": "https://www.lopp.net/bitcoin-information.html",
+    "category": "bitcoin_education",
+    "role": "context"
+  },
+  {
+    "id": "bitcoin-core-github",
+    "label": "Bitcoin Core (GitHub)",
+    "url": "https://github.com/bitcoin/bitcoin",
+    "category": "bitcoin_education",
+    "role": "context"
+  },
+  {
+    "id": "nakamoto-institute",
+    "label": "Satoshi Nakamoto Institute",
+    "url": "https://nakamotoinstitute.org/",
+    "category": "bitcoin_education",
+    "role": "context"
+  }
+]

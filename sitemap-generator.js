@@ -17,7 +17,7 @@ const defaultLang = "en";
 // Import CBDC data
 let cbdcData;
 try {
-  const dataPath = join(__dirname, "src/data/cbdc-data.json");
+  const dataPath = join(__dirname, "public/cbdc-data.json");
   cbdcData = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
 } catch (err) {
   console.warn("⚠️  CBDC data not found, generating basic sitemap");
